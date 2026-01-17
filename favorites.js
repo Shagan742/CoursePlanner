@@ -1,8 +1,8 @@
-const app = Vue.createApp({
+const favoritesApp = Vue.createApp({
     data() {
       return {
         message: 'Hello Vue!'
       }
     }
   });
-  app.mount('#app')
+  app.mount('#favoritesApp')
