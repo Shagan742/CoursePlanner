@@ -1,20 +1,2375 @@
 [
     {
-        "grades": [9, 10, 11, 12],
-        "name": "fksfjk",
-        "majors":["a", "b", "c"],
-        "subject":"fjdkfj"
+        "grades": [11, 12],
+        "name": "Brookdale CC - English Comp",
+        "credits":2.5,
+        "majors":[
+                    "Computer Science",
+                    "Finance",
+                    "Business/Management",
+                    "Psychology",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"English",
+        "Pre-Requisites":["English 2", "Honors English 2"]
     }, 
     {
-        "grades": [9, 10, 11, 12],
-        "name": "fksfjk",
-        "majors":["a", "b", "c"],
-        "subject":"fjdkfj"
+        "grades": [11, 12],
+        "name": "Brookdale CC - Short Story",
+        "credits":2.5,
+        "majors":[
+                    "Computer Science",
+                    "Finance",
+                    "Business/Management",
+                    "Psychology",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"English",
+        "Pre-Requisites":["English 2", "Honors English 2"]
     }, 
     {
+        "grades": [11, 12],
+        "name": "AP English Language & Composition",
+        "credits": 5,
+        "majors":[
+                    "Business/Management",
+                    "Computer Science",
+                    "Finance",
+                    "Psychology",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Sociology",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"English",
+        "Pre-Requisites":["English 2", "Honors English 2", "English 3", "Honors English 3"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "AP English Literature",
+        "credits":5,
+        "majors":[
+                    "Education",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Sociology",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"English",
+        "Pre-Requisites":["English 2", "Honors English 2", "English 3", "Honors English 3"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Sociology",
+        "credits":2.5,
+        "majors":[
+                    "Psychology",
+                    "Biology",
+                    "Nursing",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Sociology",
+                    "Art/Design",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Social Studies",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Criminology and Law",
+        "credits":2.5,
+        "majors":[
+                    "Psychology",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Sociology",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Social Studies",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "Honors We the People",
+        "credits":5,
+        "majors":[
+                    "Psychology",
+                    "Education",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Sociology",
+                    "Philosophy"
+                ],
+        "subject":"Social Studies",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "Leadership in Action",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Sociology",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Social Studies",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Psychology",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Sociology",
+                    "Art/Design",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Social Studies",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "AP European History",
+        "credits":5,
+        "majors":[
+                    "Psychology",
+                    "Education",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Sociology",
+                    "Art/Design",
+                    "Philosophy"
+                ],
+        "subject":"Social Studies",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "AP Government & Politics",
+        "credits":5,
+        "majors":[
+                    "Psychology",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "History",
+                    "Sociology",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Social Studies",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "AP Psychology",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Sociology",
+                    "Art/Design",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Social Studies",
+        "Pre-Requisites":["NONE"]
+    },
+    {
         "grades": [9, 10, 11, 12],
-        "name": "fksfjk",
-        "majors":["a", "b", "c"],
-        "subject":"fjdkfj"
+        "name": "AP Macroeconomics",
+        "credits":2.5,
+        "majors":[
+                    "Business/Management",
+                    "Finance",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "History",
+                    "Mathematics",
+                    "Environmental Science"
+                ],
+        "subject":"Social Studies",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "AP Microeconomics",
+        "credits":2.5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":["Social Studies", "Financial Literacy"],
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Power and Progress",
+        "credits":5,
+        "majors":[
+                    "Psychology",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Sociology",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Social Studies",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [12],
+        "name": "Global Studies",
+        "credits":5,
+        "majors":[
+                    "Psychology",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Sociology",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Social Studies",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "Lab Environmental Science",
+        "credits":5,
+        "majors":[
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Chemistry",
+                    "Physics",
+                    "Environmental Science",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Science",
+        "Pre-Requisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "Lab Forensic Science",
+        "credits":2.5,
+        "majors":[
+                    "Psychology",
+                    "Biology",
+                    "Nursing",
+                    "Political Science",
+                    "Chemistry",
+                    "Sociology",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Science",
+        "Pre-Requisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "Lab Marine Science",
+        "credits":2.5,
+        "majors":[
+                    "Biology",
+                    "Chemistry",
+                    "Physics",
+                    "Environmental Science",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Science",
+        "Pre-Requisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "Honors Anatomy & Physiology",
+        "credits":5,
+        "majors":[
+                    "Biology",
+                    "Nursing",
+                    "Education",
+                    "Chemistry",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Science",
+        "Pre-Requisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "AP Biology",
+        "credits":5,
+        "majors":[
+                    "Psychology",
+                    "Biology",
+                    "Nursing",
+                    "Education",
+                    "History",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Environmental Science",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Science",
+        "Pre-Requisites":["Lab Biology", "Honors Lab Biology"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "AP Chemistry",
+        "credits":5,
+        "majors":[
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Chemistry",
+                    "Physics",
+                    "Environmental Science",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Science",
+        "Pre-Requisites":["Lab Chemistry"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "AP Environmental Science",
+        "credits":5,
+        "majors":[
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Science",
+        "Pre-Requisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "AP Physics 1",
+        "credits":5,
+        "majors":[
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Environmental Science",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Science",
+        "Pre-Requisites":["Algebra 1", "Honors Algebra 1", "Geometry", "Honors Geometry"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "AP Physics 2",
+        "credits":5,
+        "majors":[
+                    "Finance",
+                    "Computer Science",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Environmental Science",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Science",
+        "Pre-Requisites":["AP Physics 1"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "Statistics",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Environmental Science",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Mathematics",
+        "Pre-Requisites":["Algebra 2", "Honors Algebra 2"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "AP Statistics",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Environmental Science",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Mathematics",
+        "Pre-Requisites":["Algebra 2", "Honors Algebra 2"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "AP Computer Science A",
+        "credits":5,
+        "majors":[
+                    "Finance",
+                    "Engineering",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Art/Design",
+                    "Computer Science"
+                ],
+        "subject":"Mathematics",
+        "Pre-Requisites":["Geometry", "Honors Geometry", "Technology Systems & Design", 
+    "Honors Architecture 1", "Honors Architecture 2", "Graphic Design & Photography 1", 
+    "Graphic Design & Photography 2", "Honors Electronics 1", "Honors Electronics 2",
+    "Honors Engineering Graphics 1", "Honors Engineering Graphics 2", "Video Editing & Media Production 1",
+    "Video Editing & Media Production 2", "Honors Innovation and Design (Requires recommendation!!)", "AP Computer Science Principles",
+    "Intro to Woodworking", "Cabinet Making", "Advanced Cabinet Making"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Honors Cybersecurity and Computer Programming",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Computer Science",
+                    "Finance",
+                    "Engineering",
+                    "Economics",
+                    "Mathematics"
+                ],
+        "subject":"Mathematics",
+        "Pre-Requisites":["Technology Systems & Design", 
+    "Honors Architecture 1", "Honors Architecture 2", "Graphic Design & Photography 1", 
+    "Graphic Design & Photography 2", "Honors Electronics 1", "Honors Electronics 2",
+    "Honors Engineering Graphics 1", "Honors Engineering Graphics 2", "Video Editing & Media Production 1",
+    "Video Editing & Media Production 2", "Honors Innovation and Design (Requires recommendation!!)", "AP Computer Science Principles",
+    "Intro to Woodworking", "Cabinet Making", "Advanced Cabinet Making"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Honors Accounting 1",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Finance",
+                    "Economics",
+                    "Mathematics"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Honors Accounting 2",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Finance",
+                    "Economics",
+                    "Mathematics"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["Honors Accounting 1"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Business Management",
+        "credits":2.5,
+        "majors":[
+                    "Business/Management",
+                    "Finance",
+                    "Economics",
+                    "Communications",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Sports and Entertainment Marketing",
+        "credits":2.5,
+        "majors":[
+                    "Business/Management",
+                    "Finance",
+                    "Economics",
+                    "Communications",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Financial Literacy",
+        "credits":2.5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Financial Literacy",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Business Law & Ethics",
+        "majors":[
+                    "Business/Management",
+                    "Finance",
+                    "Economics",
+                    "Political Science",
+                    "Communications"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Marketing",
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Finance",
+                    "Economics",
+                    "Communications",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Technology Systems & Design",
+        "credits":5,
+        "majors":[
+                    "Computer Science",
+                    "Engineering"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Honors Architecture 1",
+        "credits":5,
+        "majors":[
+                    "Engineering",
+                    "Mathematics",
+                    "Art/Design"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Honors Architecture 2",
+        "credits":5,
+        "majors":[
+                    "Engineering",
+                    "Mathematics",
+                    "Art/Design"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["Honors Architecture 1"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Graphic Design & Photography 1",
+        "credits":5,
+        "majors":[
+                    "Computer Science",
+                    "Art/Design"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Graphic Design & Photography 2",
+        "credits":5,
+        "majors":[
+                    "Computer Science",
+                    "Art/Design"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["Graphic Design & Photography 1"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Honors Electronics 1",
+        "credits":5,
+        "majors":[
+                    "Computer Science",
+                    "Engineering",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Honors Electronics 2",
+        "credits":5,
+        "majors":[
+                    "Computer Science",
+                    "Engineering",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["Honors Electronics 1"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Honors Engineering Graphics 1",
+        "credits":5,
+        "majors":[
+                    "Computer Science",
+                    "Engineering",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Honors Engineering Graphics 2",
+        "credits":5,
+        "majors":[
+                    "Computer Science",
+                    "Engineering",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["Honors Engineering Graphics 1"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Video Editing & Media Production 1",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Computer Science",
+                    "Education",
+                    "Communications",
+                    "Art/Design"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Video Editing & Media Production 2",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Computer Science",
+                    "Education",
+                    "Communications",
+                    "Art/Design"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["Video Editing & Media Production 1"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "Honors Innovation and Design (Requires recommendation!!)",
+        "credits":5,
+        "majors":[
+                    "Computer Science",
+                    "Engineering",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Art/Design"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "AP Computer Science Principles",
+        "credits":5,
+        "majors":[
+                    "Computer Science",
+                    "Engineering",
+                    "Art/Design"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Intro to Woodworking",
+        "credits":5,
+        "majors":[
+                    "Engineering",
+                    "Art/Design"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Cabinet Making",
+        "credits":5,
+        "majors":[
+                    "Engineering",
+                    "Art/Design"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":"Intro to Woodworking"
+    },
+    {
+        "grades": [11, 12],
+        "name": "Advanced Cabinet Making",
+        "credits":5,
+        "majors":[
+                    "Engineering",
+                    "Art/Design"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":"Cabinet Making"
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Spanish 1",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"World Language",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Spanish 2",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"World Language",
+        "Pre-Requisites":["Spanish 1"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Spanish 3",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"World Language",
+        "Pre-Requisites":["Spanish 2"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Honors Spanish 4",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Nursing",
+                    "Education",
+                    "Communications",
+                    "Sociology",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"World Language",
+        "Pre-Requisites":["Spanish 3"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "AP Spanish Language & Culture",
+        "credits":5,
+        "majors":[
+                    "Psychology",
+                    "Nursing",
+                    "Education",
+                    "Communications",
+                    "Sociology",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"World Language",
+        "Pre-Requisites":["Honors Spanish 4"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Italian 1",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"World Language",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Italian 2",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"World Language",
+        "Pre-Requisites":["Italian 1"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Italian 3",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"World Language",
+        "Pre-Requisites":["Italian 2"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Honors Italian 4",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Nursing",
+                    "Education",
+                    "Communications",
+                    "Sociology",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"World Language",
+        "Pre-Requisites":["Italian 3"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Applied Art 1",
+        "credits":2.5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Honors Applied Art 2",
+        "credits":5,
+        "majors":[
+                    "Sociology",
+                    "Art/Design",
+                    "Philosophy"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Applied Art 1", "Fine Art 1"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Honors Applied Art 3",
+        "credits":5,
+        "majors":[
+                    "Sociology",
+                    "Art/Design",
+                    "Philosophy"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Honors Applied Art 2"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Honors Applied Art 4",
+        "credits":5,
+        "majors":[
+                    "Sociology",
+                    "Art/Design",
+                    "Philosophy"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Honors Applied Art 3"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Fine Art 1",
+        "credits":2.5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Honors Fine Art 2",
+        "credits":5,
+        "majors":[
+                    "Sociology",
+                    "Art/Design",
+                    "Philosophy"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Fine Art 1"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Honors Fine Art 3",
+        "credits":5,
+        "majors":[
+                    "Sociology",
+                    "Art/Design",
+                    "Philosophy"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Honors Fine Art 2"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Honors Fine Art 4",
+        "credits":5,
+        "majors":[
+                    "Sociology",
+                    "Art/Design",
+                    "Philosophy"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Honors Fine Art 3"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "AP Studio Art",
+        "credits":5,
+        "majors":[
+                    "Sociology",
+                    "Art/Design",
+                    "Philosophy"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Honors Fine Art 2"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Drama",
+        "credits":2.5,
+        "majors":[
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Sociology",
+                    "Art/Design",
+                    "Philosophy"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Advanced Drama",
+        "credits":2.5,
+        "majors":[
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Sociology",
+                    "Art/Design",
+                    "Philosophy"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Public Speaking",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Band 1",
+        "credits":5,
+        "majors":[
+                    "English/Literature",
+                    "Art/Design"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Band 2",
+        "credits":5,
+        "majors":[
+                    "English/Literature",
+                    "Art/Design"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Band 1"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Band 3",
+        "credits":5,
+        "majors":[
+                    "English/Literature",
+                    "Art/Design"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Band 2", "Honors Band 2"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Band 4",
+        "credits":5,
+        "majors":[
+                    "English/Literature",
+                    "Art/Design"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Band 3", "Honors Band 3"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Honors Band 2",
+        "credits":5,
+        "majors":[
+                    "English/Literature",
+                    "Art/Design"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Band 1"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Honors Band 3",
+        "credits":5,
+        "majors":[
+                    "English/Literature",
+                    "Art/Design"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Band 2", "Honors Band 2"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Honors Band 4",
+        "credits":5,
+        "majors":[
+                    "English/Literature",
+                    "Art/Design"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Band 3", "Honors Band 3"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Chorus 1",
+        "credits":5,
+        "majors":[
+                    "English/Literature",
+                    "Art/Design"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Chorus 2",
+        "credits":5,
+        "majors":[
+                    "English/Literature",
+                    "Art/Design"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Chorus 1"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Chorus 3",
+        "credits":5,
+        "majors":[
+                    "English/Literature",
+                    "Art/Design"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Chorus 2", "Honors Chorus 2"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Chorus 4",
+        "credits":5,
+        "majors":[
+                    "English/Literature",
+                    "Art/Design"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Chorus 3", "Honors Chorus 3"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Honors Chorus 2",
+        "credits":5,
+        "majors":[
+                    "English/Literature",
+                    "Art/Design"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Chorus 1"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Honors Chorus 3",
+        "credits":5,
+        "majors":[
+                    "English/Literature",
+                    "Art/Design"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Chorus 2", "Honors Chorus 2"]
+    },
+    {
+        "grades": [10, 11, 12],
+        "name": "Honors Chorus 4",
+        "credits":5,
+        "majors":[
+                    "English/Literature",
+                    "Art/Design"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["Chorus 3", "Honors Chorus 3"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Pop Music 1",
+        "credits":2.5,
+        "majors":[
+                    "Psychology",
+                    "English/Literature",
+                    "History",
+                    "Sociology",
+                    "Art/Design",
+                    "Philosophy"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Pop Music 2",
+        "credits":2.5,
+        "majors":[
+                    "Psychology",
+                    "English/Literature",
+                    "History",
+                    "Sociology",
+                    "Art/Design",
+                    "Philosophy"
+                ],
+        "subject":"Visual & Performing Arts",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "AP Calculus AB",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Computer Science",
+                    "Finance",
+                    "Engineering",
+                    "Economics",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics"
+                ],
+        "subject":"Mathematics",
+        "Pre-Requisites": ["Honors Precalculus", "Honors Algebra 2", "Precalculus"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "AP Calculus BC",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Computer Science",
+                    "Finance",
+                    "Engineering",
+                    "Economics",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics"
+                ],
+        "subject":"Mathematics",
+        "Pre-Requisites": ["Honors Precalculus"]
+    },
+    {
+        "grades": [12],
+        "name": "Honors Multivariable Calculus",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Computer Science",
+                    "Finance",
+                    "Engineering",
+                    "Economics",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics"
+                ],
+        "subject":"Mathematics",
+        "Pre-Requisites": ["AP Calculus BC"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "Advanced Algebra and Trigonometry",
+        "credits":5,
+        "majors":[
+                    "Psychology",
+                    "Biology",
+                    "Nursing",
+                    "Education",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Sociology",
+                    "Art/Design",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Mathematics",
+        "Pre-Requisites":["Geometry", "Honors Geometry", "Algebra 2", "Honors Algebra 2"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Geometry",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Mathematics",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Honors Geometry",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Mathematics",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Algebra 1",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Mathematics",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Honors Algebra 1",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Mathematics",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Algebra 2",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Mathematics",
+        "Pre-Requisites":["Geometry", "Honors Geometry", "Algebra 1", "Honors Algebra 1"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Honors Algebra 2",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Mathematics",
+        "Pre-Requisites":["Geometry", "Honors Geometry", "Algebra 1", "Honors Algebra 1"]
+    },
+    {
+        "grades": [9],
+        "name": "English 1",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"English",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9],
+        "name": "Honors English 1",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"English",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [10],
+        "name": "English 2",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"English",
+        "Pre-Requisites":["English 1", "Honors English 1"]
+    },
+    {
+        "grades": [10],
+        "name": "Honors English 2",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"English",
+        "Pre-Requisites":["English 1", "Honors English 1"]
+    },
+    {
+        "grades": [11],
+        "name": "English 3",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"English",
+        "Pre-Requisites":["English 2", "Honors English 2"]
+    },
+    {
+        "grades": [11],
+        "name": "Honors English 3",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"English",
+        "Pre-Requisites":["English 2", "Honors English 2"]
+    },
+    {
+        "grades": [12],
+        "name": "English 4",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"English",
+        "Pre-Requisites":["English 3", "Honors English 3"]
+    },
+    {
+        "grades": [9],
+        "name": "World History",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Social Studies",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9],
+        "name": "Honors World History",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Social Studies",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [10, 11],
+        "name": "US History 1",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Social Studies",
+        "Pre-Requisites":["World History", "Honors World History"]
+    },
+    {
+        "grades": [10, 11],
+        "name": "Advanced US History 1",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Social Studies",
+        "Pre-Requisites":["World History", "Honors World History"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "US History 2",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Social Studies",
+        "Pre-Requisites":["US History 1", "Advanced US History 1"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "AP US History",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Social Studies",
+        "Pre-Requisites":["US History 1", "Advanced US History 1"]
+    },
+    {
+        "grades": [9],
+        "name": "Lab Biology",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Science",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [9],
+        "name": "Honors Lab Biology",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Science",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [10],
+        "name": "Lab Chemistry",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Science",
+        "Pre-Requisites":["Lab Biology", "Honors Lab Biology"]
+    },
+    {
+        "grades": [10],
+        "name": "Honors Lab Chemistry",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Science",
+        "Pre-Requisites":["Lab Biology", "Honors Lab Biology"]
+    },
+    {
+        "grades": [11, 12],
+        "name": "Lab Physics",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Science",
+        "Pre-Requisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Precalculus",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Mathematics",
+        "Pre-Requisites":["Geometry", "Honors Geometry", "Algebra 2", "Honors Algebra 2"]
+    },
+    {
+        "grades": [9, 10, 11, 12],
+        "name": "Honors Precalculus",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Psychology",
+                    "Computer Science",
+                    "Finance",
+                    "Biology",
+                    "Nursing",
+                    "Engineering",
+                    "Education",
+                    "Economics",
+                    "Political Science",
+                    "Communications",
+                    "English/Literature",
+                    "History",
+                    "Mathematics",
+                    "Chemistry",
+                    "Physics",
+                    "Sociology",
+                    "Art/Design",
+                    "Environmental Science",
+                    "Philosophy",
+                    "Health Sciences/Public Health"
+                ],
+        "subject":"Mathematics",
+        "Pre-Requisites":["Geometry", "Honors Geometry", "Algebra 2", "Honors Algebra 2"]
     }
 ]
