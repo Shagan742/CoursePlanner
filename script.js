@@ -18,7 +18,7 @@ const app = Vue.createApp({
         langCounter: 0,
         artCounter: 0,
         financialLitCounter: 0,
-        centruyElectiveCounter: 0,
+        centuryElectiveCounter: 0,
         mandatoryEngCourses: 4,
         mandatoryMathCourses: 3,
         mandatorySciCourses: 3,
@@ -45,7 +45,7 @@ const app = Vue.createApp({
             }
         },
         nextPage() {
-          // Logic to navigate to the next section
+          // Logic to navigate to the next major section
           //this finds the current visible page thats not hidden
           const currentPage = document.querySelector('section:not([hidden])');
           //this find the next page after the current page
@@ -60,6 +60,57 @@ const app = Vue.createApp({
             currentPage.hidden = true;
             nextPage.hidden = false;
           }
+        },
+        toTableSelection() {
+            const gradeSelect=document.querySelector('.gradeSelect')
+            const classes=document.querySelector('.classes')
+            gradeSelect.hidden=true;
+            classes.hidden=false;
+        },
+        nextTableSelection() {
+            // Logic to navigate to the next table selection area
+          //this finds the current visible page thats not hidden
+          const tbody=document.querySelector('tbody')
+          const currentTableSelection = tbody.querySelector('tr:not([hidden])')
+          const tableSelectionBtn=document.querySelector('.toNextTable')
+          const majorSelectionBtn=document.querySelector('.toMajors')
+
+          if(!currentTableSelection) {
+            tableSelectionBtn.hidden=true;
+            majorSelectionBtn.hidden=false;
+            return;
+          }
+
+          //this find the next page after the current page
+          let nextTableSelection = currentTableSelection.nextElementSibling;
+          //this is a loop that goes through the next pages until there is no more pages
+         while (nextTableSelection && nextTableSelection.tagName !== 'TR') {
+            //this moves to the next sibling element (next page)
+            nextTableSelection = nextTableSelection.nextElementSibling;
+          }
+          //if another page exists, hide the current page and show the next page
+         if (nextTableSelection) {
+            currentTableSelection.hidden = true;
+            nextTableSelection.hidden = false;
+
+            tableSelectionBtn.hidden=false;
+            majorSelectionBtn.hidden=true;
+          } else {
+
+            tableSelectionBtn.hidden=true;
+            majorSelectionBtn.hidden=false;
+          }
+        },
+        majorSelection() {
+            // Logic to navigate to the next table selection area
+          //this finds the current visible page thats not hidden
+          const majors=document.querySelector('.majors')
+          const classes=document.querySelector('.classes')
+          const gradeSelect=document.querySelector('.gradeSelect')
+          //if another page exists, hide the current page and show the next page
+            gradeSelect.hidden=true;
+            classes.hidden = true;
+            majors.hidden = false;
         }
     }
   });
