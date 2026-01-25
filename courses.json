@@ -596,7 +596,7 @@
     },
     {
         "grades": [9, 10, 11, 12],
-        "name": "Honors Accounting 1",
+        "name": "Accounting 1",
         "credits":5,
         "majors":[
                     "Business/Management",
@@ -718,7 +718,7 @@
     },
     {
         "grades": [9, 10, 11, 12],
-        "name": "Honors Architecture 1",
+        "name": "Architecture 1",
         "credits":5,
         "majors":[
                     "Engineering",
@@ -764,7 +764,7 @@
     },
     {
         "grades": [9, 10, 11, 12],
-        "name": "Honors Electronics 1",
+        "name": "Electronics 1",
         "credits":5,
         "majors":[
                     "Computer Science",
@@ -792,7 +792,7 @@
     },
     {
         "grades": [9, 10, 11, 12],
-        "name": "Honors Engineering Graphics 1",
+        "name": "Engineering Graphics 1",
         "credits":5,
         "majors":[
                     "Computer Science",
@@ -2371,5 +2371,44 @@
                 ],
         "subject":"Mathematics",
         "Pre-Requisites":["Geometry", "Honors Geometry", "Algebra 2", "Honors Algebra 2"]
+    },
+    {
+        "grades": [10],
+        "name": "Honors Web Design",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Computer Science",
+                    "Engineering",
+                    "Art/Design"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["NONE"]
+    },
+    {
+        "grades": [11],
+        "name": "Honors Advanced Web Design",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Computer Science",
+                    "Engineering",
+                    "Art/Design"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["Honors Web Design"]
+    },
+    {
+        "grades": [12],
+        "name": "Honors NJIT IS219 Advanced Website Development",
+        "credits":5,
+        "majors":[
+                    "Business/Management",
+                    "Computer Science",
+                    "Engineering",
+                    "Art/Design"
+                ],
+        "subject":"21st Century Life & Careers",
+        "Pre-Requisites":["Honors Advanced Web Design"]
     }
 ]
