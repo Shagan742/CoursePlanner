@@ -18,7 +18,7 @@ const app = Vue.createApp({
         langCounter: 0,
         artCounter: 0,
         financialLitCounter: 0,
-        centruyElectiveCounter: 0,
+        centuryElectiveCounter: 0,
         mandatoryEngCourses: 4,
         mandatoryMathCourses: 3,
         mandatorySciCourses: 3,
