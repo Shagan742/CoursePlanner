@@ -633,7 +633,45 @@
                 </div>
             </section>
             <section id="info">
-                gvfgh
+                <h1>Current Statistics</h1>
+                <div class="row">
+                    <h3>Current Grade: {{ grade }}</h3>
+                    <h3>Next Grade: {{ grade + 1 }}</h3>
+                    <h3>Major: {{ major }}</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <h2>All Courses Taken:</h2>
+                        <ul>
+                            <li v-for="course in takenCourses">{{ course }}</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <h2>Current Requirements Fufilled</h2>
+                        <ul>
+                            <li>English: {{ engCounter }} / {{ mandatoryEngCourses }}</li>
+                            <li>Math: {{ mathCounter }} / {{ mandatoryMathCourses }}</li>
+                            <li>Science: {{ sciCounter }} / {{ mandatorySciCourses }}</li>
+                            <li>History: {{ histCounter }} / {{ mandatoryHistCourses }}</li>
+                            <li>Language: {{ langCounter }} / {{ mandatoryLangCourses }}</li>
+                            <li>Art: {{ artCounter }} / {{ mandatoryArtCourses }}</li>
+                            <li>Financial Literacy: {{ financialLitCounter }} / {{ mandatoryFinancialLitCourses }}</li>
+                            <li>21st Century Elective: {{ centruyElectiveCounter }} / {{ mandatoryCenturyElectiveCourses }}</li>
+                        </ul>
+                </div>
+                    <div class="col-md-4 col-sm-12">
+                        <h2>Recommended Courses Based on Major</h2>
+                        <ul>
+                            <li v-for="rec in recommendedCourses">{{ rec }}</li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 col-sm-12">
+                            <button type="button" class="btn btn-primary my-3" @click="previousPage()">Previous</button>
+                            <button type="button" class="btn btn-primary my-3" @click="nextPage()">Next</button>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section id="sampleSchedule">
                 sddsa
