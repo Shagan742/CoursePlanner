@@ -28,8 +28,9 @@
             <section id="home">
                 <h1>Welcome Title</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nisi magni voluptate dolore et officia unde fugit error illum consectetur. Sunt recusandae corporis inventore? Sapiente totam nihil cumque nulla tenetur?</p>
+                <button type="button" class="btn btn-primary my-3" @click="nextPage()">Get Started</button>
             </section>
-            <section id="coursesTaken+Major">
+            <section id="coursesTaken+Major" hidden>
                 <!-- grade selection -->
                 <div class="row">
                     <h2>Select your grade:</h2>
@@ -627,7 +628,7 @@
                 </div>
                 <div class="row">
                     <div class="col-4 col-sm-12">
-                        <button type="button" class="btn btn-primary my-3">Next</button>
+                        <button type="button" class="btn btn-primary my-3" @click="nextPage()">Next</button>
                     </div>
                 </div>
             </section>
