@@ -60,6 +60,18 @@ const app = Vue.createApp({
             currentPage.hidden = true;
             nextPage.hidden = false;
           }
+        },
+        previousPage() {
+          // Logic to navigate to the previous section
+          const currentPage = document.querySelector('section:not([hidden])');
+          let previousPage = currentPage.previousElementSibling;
+          while (previousPage && previousPage.tagName !== 'SECTION') {
+            previousPage = previousPage.previousElementSibling;
+          }
+          if (previousPage) {
+            currentPage.hidden = true;
+            previousPage.hidden = false;
+          }
         }
     }
   });
