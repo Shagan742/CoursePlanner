@@ -30,20 +30,6 @@ const app = Vue.createApp({
       }
   },
     methods: {
-        selectGrade(event) {
-            this.grade = event.target.value;
-        },
-        selectMajor(event) {
-            this.major = event.target.value;
-        },
-        toggleCourseSelection(course) {
-            const index = this.takenCourses.indexOf(course);
-            if (index > -1) {
-                this.takenCourses.splice(index, 1);
-            } else {
-                this.takenCourses.push(course);
-            }
-        },
         nextPage() {
           // Logic to navigate to the next section
           //this finds the current visible page thats not hidden
