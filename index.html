@@ -35,15 +35,15 @@
                 <div class="row">
                     <h2>Select your grade:</h2>
                     <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="9th" value="option1" v-model="grade">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="9th" value="9" v-model="grade">
                     <label class="form-check-label" for="9th">9th Grade</label>
                 </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="10th" value="option2" v-model="grade">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="10th" value="10" v-model="grade">
                         <label class="form-check-label" for="10th">10th Grade</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="11th" value="option2" v-model="grade">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="11th" value="11" v-model="grade">
                         <label class="form-check-label" for="11th">11th Grade</label>
                     </div>
                 </div>
@@ -602,8 +602,8 @@
                 <!-- major selection -->
                 <div class="row">
                     <h2>Select your intended major/primary interest:</h2>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Select your major/interest:</option>
+                    <select class="form-select" aria-label="Default select example" v-model="major">
+                        <option disabled value="">Select your major/interest:</option>
                         <option value="Computer Science">Computer Science</option>
                         <option value="Business/Management">Business/Management</option>
                         <option value="Psychology">Psychology</option>
@@ -635,9 +635,9 @@
             <section id="info" hidden>
                 <h1>Current Statistics</h1>
                 <div class="row">
-                    <h3>Current Grade: {{ grade }}</h3>
-                    <h3>Next Grade: {{ grade + 1 }}</h3>
-                    <h3>Major: {{ major }}</h3>
+                    <h3>Current Grade: {{ grade }}th Grade</h3>
+                    <h3>Next Grade: {{ grade + 1 }}th Grade</h3>
+                    <h3>Major: {{ major }} </h3>
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
