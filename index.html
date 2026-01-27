@@ -649,14 +649,43 @@
                     <div class="col-md-4 col-sm-12">
                         <h2>Current Requirements Fufilled</h2>
                         <ul>
-                            <li>English: {{ engCounter }} / {{ mandatoryEngCourses }}</li>
-                            <li>Math: {{ mathCounter }} / {{ mandatoryMathCourses }}</li>
-                            <li>Science: {{ sciCounter }} / {{ mandatorySciCourses }}</li>
-                            <li>History: {{ histCounter }} / {{ mandatoryHistCourses }}</li>
-                            <li>Language: {{ langCounter }} / {{ mandatoryLangCourses }}</li>
-                            <li>Art: {{ artCounter }} / {{ mandatoryArtCourses }}</li>
-                            <li>Financial Literacy: {{ financialLitCounter }} / {{ mandatoryFinancialLitCourses }}</li>
-                            <li>21st Century Elective: {{ centruyElectiveCounter }} / {{ mandatoryCenturyElectiveCourses }}</li>
+                            <li>English: {{ engCounter }} / {{ mandatoryEngCourses }}
+                                <p v-if="mandatoryEngCourses - engCounter > 1">{{ mandatoryEngCourses - engCounter }} years left</p>
+                                <p v-else-if="mandatoryEngCourses - engCounter == 1">{{ mandatoryEngCourses - engCounter }} year left</p>
+                                <p v-else>You have completed all English requirements.</p>
+                            </li>
+                            <li>Math: {{ mathCounter }} / {{ mandatoryMathCourses }}
+                                <p v-if="mandatoryMathCourses - mathCounter > 1">{{ mandatoryMathCourses - mathCounter }} years left</p>
+                                <p v-else-if="mandatoryMathCourses - mathCounter == 1">{{ mandatoryMathCourses - mathCounter }} year left</p>
+                                <p v-else>You have completed all Math requirements.</p>
+                            </li>
+                            <li>Science: {{ sciCounter }} / {{ mandatorySciCourses }}
+                                <p v-if="mandatorySciCourses - sciCounter > 1">{{ mandatorySciCourses - sciCounter }} years left</p>
+                                <p v-else-if="mandatorySciCourses - sciCounter == 1">{{ mandatorySciCourses - sciCounter }} year left</p>
+                                <p v-else>You have completed all Science requirements.</p>  
+                            </li>
+                            <li>History: {{ histCounter }} / {{ mandatoryHistCourses }}
+                                <p v-if="mandatoryHistCourses - histCounter > 1">{{ mandatoryHistCourses - histCounter }} years left</p>
+                                <p v-else-if="mandatoryHistCourses - histCounter == 1">{{ mandatoryHistCourses - histCounter }} year left</p>
+                                <p v-else>You have completed all History requirements.</p>
+                            </li>
+                            <li>Language: {{ langCounter }} / {{ mandatoryLangCourses }}
+                                <p v-if="mandatoryLangCourses - langCounter > 1">{{ mandatoryLangCourses - langCounter }} years left</p>
+                                <p v-else-if="mandatoryLangCourses - langCounter == 1">{{ mandatoryLangCourses - langCounter }} year left</p>
+                                <p v-else>You have completed all Language requirements.</p>
+                            </li>
+                            <li>Art: {{ artCounter }} / {{ mandatoryArtCourses }}
+                                <p v-if="mandatoryArtCourses - artCounter > 0">{{ mandatoryArtCourses - artCounter }} year left</p>
+                                <p v-else>You have completed the Art requirement.</p>
+                            </li>
+                            <li>Financial Literacy: {{ financialLitCounter }} / {{ mandatoryFinancialLitCourses }}
+                                <p v-if="mandatoryFinancialLitCourses - financialLitCounter > 0">{{ mandatoryFinancialLitCourses - financialLitCounter }} year left</p>
+                                <p v-else>You have completed the Financial Literacy requirement.</p>
+                            </li>
+                            <li>21st Century Elective: {{ centuryElectiveCounter }} / {{ mandatoryCenturyElectiveCourses }}
+                                <p v-if="mandatoryCenturyElectiveCourses - centuryElectiveCounter > 0">{{ mandatoryCenturyElectiveCourses - centuryElectiveCounter }} year left</p>
+                                <p v-else>You have completed the 21st Century Elective requirement.</p>
+                            </li>
                         </ul>
                 </div>
                     <div class="col-md-4 col-sm-12">
