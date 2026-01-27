@@ -312,6 +312,10 @@
                                         <input class="form-check-input" type="checkbox" value="Global Studies" id="" v-model="takenCourses"/>
                                         <label class="form-check-label" for=""> Global Studies </label>
                                     </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="Power and Progress" id="" v-model="takenCourses"/>  
+                                        <label class="form-check-label" for=""> Power and Progress </label>
+                                    </div>
                                 </th>
                             </tr>
                             <!-- foreign language -->
@@ -691,8 +695,8 @@
                     <div class="col-md-4 col-sm-12">
                         <h2>Recommended Courses Based on Major</h2>
                         <ul>
-                            <li v-for="rec in recommendedCourses">{{ rec }}</li>
-                        </ul>
+    <li v-for="rec in recommendedCourses" :key="rec">{{ rec }}</li>
+</ul>
                     </div>
                     <div class="row">
                         <div class="col-4 col-sm-12">

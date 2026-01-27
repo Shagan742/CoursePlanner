@@ -10,7 +10,7 @@ const app = Vue.createApp({
         message: 'Hello Vue!',
         grade: 9,
         major: '',
-        takenCourses: [],
+          takenCourses: [],
         engCounter: 0,
         mathCounter: 0,
         sciCounter: 0,
@@ -144,10 +144,20 @@ const app = Vue.createApp({
     }
     
   });
-}
-
-
+        },
     },
+    computed: {
+        recommendedCourses() {
+            //if user does not select a major, nothing is recommended
+      if (!this.major) return [];
+
+      // Returns all courses for the selected major
+      return this.courses
+          .filter(course => course.majors.includes(this.major))// filters the courses based on major
+        .filter(course => !this.takenCourses.includes(course.name)) // exclude courses that user has already taken
+        .map(course => course.name); // return course names
+    }
+},
     watch: {
           //this will watch for changes when user selects courses
           takenCourses() {
