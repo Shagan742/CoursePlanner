@@ -33,26 +33,26 @@
                         <button type="button" class="btn btn-success my-3" @click="nextPage()">Get Started</button>
                     </div>
             </section>
-            <section id="coursesTaken+Major" hidden>
+            <section id="coursesTaken+Major" class="row text-center justify-content-center align-content-center mx-3" style="min-height:900px;" hidden>
                 <!-- grade selection -->
-                <div class="gradeSelect row justify-content-center">
+                 <div class="gradeSelect row justify-content-center">
                     <h2 class="mb-4">Select your grade:</h2>
                     
                     <div class="col-sm-2">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="9th" value="9" v-model="grade">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="9th" value="option1">
                             <label class="form-check-label" for="9th">9th Grade</label>
                         </div>
                     </div>
                     <div class="col-sm-2">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="10th" value="10" v-model="grade">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="10th" value="option2">
                             <label class="form-check-label" for="10th">10th Grade</label>
                         </div>
                     </div>
                     <div class="col-sm-2">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="11th" value="11" v-model="grade">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="11th" value="option2">
                             <label class="form-check-label" for="11th">11th Grade</label>
                         </div>
                     </div>
@@ -62,9 +62,9 @@
                         <button type="button" style="width: 100px;" class="btn btn-success my-3" @click="toTableSelection()">Next</button>
                     </div>
                 </div>
-                <!-- class selection -->
 
-<div class="row justify-content-center classes" hidden>
+                <!-- class selection -->
+                <div class="row justify-content-center classes" hidden>
                     <h2 class="mb-4">Select All the Classes You've Taken/Are Currently Taking:</h2>
                     
                         <table>
@@ -80,143 +80,144 @@
                                     <td>English</td>
                                     <td>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="English 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="English 1" id="" />
                                             <label class="form-check-label" for=""> English 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors English 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors English 1" id="" />
                                             <label class="form-check-label" for=""> Honors English 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="English 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="English 2" id="" />
                                             <label class="form-check-label" for=""> English 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors English 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors English 2" id="" />
                                             <label class="form-check-label" for=""> Honors English 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="English 3" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="English 3" id="" />
                                             <label class="form-check-label" for="">  English 3 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors English 3" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors English 3" id="" />
                                             <label class="form-check-label" for=""> Honors English 3 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP English Language & Composition" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP English Language & Composition" id="" />
                                             <label class="form-check-label" for=""> AP English Language & Composition </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="English 4" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="English 4" id="" />
                                             <label class="form-check-label" for=""> English 4 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Brookdale CC - English Comp" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Brookdale CC - English Comp" id="" />
                                             <label class="form-check-label" for=""> Brookdale CC - English Comp </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Brookdale CC - Short Story" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Brookdale CC - Short Story" id="" />
                                             <label class="form-check-label" for=""> Brookdale CC - Short Story </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP English Literature" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP English Literature" id="" />
                                             <label class="form-check-label" for=""> AP English Literature </label>
                                         </div>
                                     </td>
                                     
-                                </tr>  
+                                </tr>
+                                    
                                 <!-- math branch -->
                                 <tr hidden>
                                     <td>Mathematics</td>
                                     <td>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Geometry" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Geometry" id="" />
                                             <label class="form-check-label" for=""> Geometry </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Geometry" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Geometry" id="" />
                                             <label class="form-check-label" for=""> Honors Geometry </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Algebra 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Algebra 1" id="" />
                                             <label class="form-check-label" for=""> Algebra 1 </label>
                                         </div>
                                         <br>                              
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Algebra 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Algebra 1" id="" />
                                             <label class="form-check-label" for=""> Honors Algebra 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Algebra 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Algebra 2" id="" />
                                             <label class="form-check-label" for=""> Algebra 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Algebra 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Algebra 2" id="" />
                                             <label class="form-check-label" for=""> Honors Algebra 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Advanced Algebra and Trigonometry" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Advanced Algebra and Trigonometry" id="" />
                                             <label class="form-check-label" for=""> Advanced Algebra and Trigonometry </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Pre-Calculus" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Pre-Calculus" id="" />
                                             <label class="form-check-label" for=""> Pre-Calculus </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline ">
-                                            <input class="form-check-input" type="checkbox" value="Honors Pre-Calculus" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Pre-Calculus" id="" />
                                             <label class="form-check-label" for=""> Honors Pre-Calculus </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP Calculus AB" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP Calculus AB" id="" />
                                             <label class="form-check-label" for=""> AP Calculus AB </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP Calculus BC" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP Calculus BC" id="" />
                                             <label class="form-check-label" for=""> AP Calculus BC </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Multivariable Calculus" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Multivariable Calculus" id="" />
                                             <label class="form-check-label" for=""> Honors Multivariable Calculus </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Statistics" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Statistics" id="" />
                                             <label class="form-check-label" for=""> Statistics </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP Statistics" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP Statistics" id="" />
                                             <label class="form-check-label" for=""> AP Statistics </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP Computer Science A" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP Computer Science A" id="" />
                                             <label class="form-check-label" for=""> AP Computer Science A </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Cybersecurity and Computer Programming" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Cybersecurity and Computer Programming" id="" />
                                             <label class="form-check-label" for=""> Honors Cybersecurity and Computer Programming </label>
                                         </div>
                                         <br>
@@ -227,72 +228,72 @@
                                     <td>Science</td>
                                     <td>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Lab Biology" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Lab Biology" id="" />
                                             <label class="form-check-label" for=""> Lab Biology </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Lab Biology" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Lab Biology" id="" />
                                             <label class="form-check-label" for=""> Honors Lab Biology </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP Biology" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP Biology" id="" />
                                             <label class="form-check-label" for=""> AP Biology </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Lab Chemistry" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Lab Chemistry" id="" />
                                             <label class="form-check-label" for=""> Lab Chemistry </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Lab Chemistry" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Lab Chemistry" id="" />
                                             <label class="form-check-label" for=""> Honors Lab Chemistry </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP Chemistry" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP Chemistry" id="" />
                                             <label class="form-check-label" for=""> AP Chemistry </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Lab Physics" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Lab Physics" id="" />
                                             <label class="form-check-label" for=""> Lab Physics </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP Physics 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP Physics 1" id="" />
                                             <label class="form-check-label" for=""> AP Physics 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP Physics 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP Physics 2" id="" />
                                             <label class="form-check-label" for=""> AP Physics 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Lab Enviromental Science" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Lab Enviromental Science" id="" />
                                             <label class="form-check-label" for=""> Lab Enviromental Science </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP Environmental Science" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP Environmental Science" id="" />
                                             <label class="form-check-label" for=""> AP Environmental Science </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Anatomy & Physiology" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Anatomy & Physiology" id="" />
                                             <label class="form-check-label" for=""> Honors Anatomy & Physiology </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Lab Forensic Science" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Lab Forensic Science" id="" />
                                             <label class="form-check-label" for=""> Lab Forensic Science </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Lab Marine Science" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Lab Marine Science" id="" />
                                             <label class="form-check-label" for=""> Lab Marine Science </label>
                                         </div>
                                     </td>
@@ -302,87 +303,87 @@
                                     <td>Social Studies</td>
                                     <td>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="World History" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="World History" id="" />
                                             <label class="form-check-label" for=""> World History </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors World History" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors World History" id="" />
                                             <label class="form-check-label" for=""> Honors World History </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="US History 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="US History 1" id="" />
                                             <label class="form-check-label" for=""> US History 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Advanced US History 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Advanced US History 1" id="" />
                                             <label class="form-check-label" for=""> Advanced US History 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="US History 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="US History 2" id="" />
                                             <label class="form-check-label" for=""> US History 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP US History" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP US History" id="" />
                                             <label class="form-check-label" for=""> AP US History </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Sociology" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Sociology" id="" />
                                             <label class="form-check-label" for=""> Sociology </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Criminology and Law" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Criminology and Law" id="" />
                                             <label class="form-check-label" for=""> Criminology and Law </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Psychology" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Psychology" id="" />
                                             <label class="form-check-label" for=""> Psychology </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP Psychology" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP Psychology" id="" />
                                             <label class="form-check-label" for=""> AP Psychology </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP European History" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP European History" id="" />
                                             <label class="form-check-label" for=""> AP European History </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP Macroeconomics" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP Macroeconomics" id="" />
                                             <label class="form-check-label" for=""> AP Macroeconomics </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP Microeconomics" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP Microeconomics" id="" />
                                             <label class="form-check-label" for=""> AP Microeconomics </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP Government & Politics" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP Government & Politics" id="" />
                                             <label class="form-check-label" for=""> AP Government & Politics </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors We the People" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors We the People" id="" />
                                             <label class="form-check-label" for=""> Honors We the People </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Leadership in Action" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Leadership in Action" id="" />
                                             <label class="form-check-label" for=""> Leadership in Action </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Global Studies" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Global Studies" id="" />
                                             <label class="form-check-label" for=""> Global Studies </label>
                                         </div>
                                     </td>
@@ -392,47 +393,47 @@
                                     <td>World Language</td>
                                     <td>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Spanish 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Spanish 1" id="" />
                                             <label class="form-check-label" for=""> Spanish 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Spanish 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Spanish 2" id="" />
                                             <label class="form-check-label" for=""> Spanish 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Spanish 3" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Spanish 3" id="" />
                                             <label class="form-check-label" for=""> Spanish 3 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Spanish 4" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Spanish 4" id="" />
                                             <label class="form-check-label" for=""> Honors Spanish 4 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP Spanish Language & Culture" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP Spanish Language & Culture" id="" />
                                             <label class="form-check-label" for=""> AP Spanish Language & Culture </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Italian 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Italian 1" id="" />
                                             <label class="form-check-label" for=""> Italian 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Italian 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Italian 2" id="" />
                                             <label class="form-check-label" for=""> Italian 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Italian 3" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Italian 3" id="" />
                                             <label class="form-check-label" for=""> Italian 3 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Italian 4" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Italian 4" id="" />
                                             <label class="form-check-label" for=""> Honors Italian 4 </label>
                                         </div>
                                     </td>
@@ -442,7 +443,7 @@
                                     <td>Financial Literacy</td>
                                     <td>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Financial Literacy" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Financial Literacy" id="" />
                                             <label class="form-check-label" for=""> Financial Literacy </label>
                                         </div>
                                     </td>
@@ -452,112 +453,112 @@
                                     <td>21st Century Life & Careers</td>
                                     <td>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Accounting 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Accounting 1" id="" />
                                             <label class="form-check-label" for=""> Accounting 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Accounting 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Accounting 2" id="" />
                                             <label class="form-check-label" for=""> Honors Accounting 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Business Management" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Business Management" id="" />
                                             <label class="form-check-label" for=""> Business Management </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Sports and Entertainment Marketing" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Sports and Entertainment Marketing" id="" />
                                             <label class="form-check-label" for=""> Sports and Entertainment Marketing </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Business Law & Ethics" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Business Law & Ethics" id="" />
                                             <label class="form-check-label" for=""> Business Law & Ethics </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Marketing" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Marketing" id="" />
                                             <label class="form-check-label" for=""> Marketing </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Technology Systems & Design" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Technology Systems & Design" id="" />
                                             <label class="form-check-label" for=""> Technology Systems & Design </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Architecture 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Architecture 1" id="" />
                                             <label class="form-check-label" for=""> Architecture 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Architecture 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Architecture 2" id="" />
                                             <label class="form-check-label" for=""> Honors Architecture 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Graphic Design & Photography 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Graphic Design & Photography 1" id="" />
                                             <label class="form-check-label" for=""> Graphic Design & Photography 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Graphic Design & Photography 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Graphic Design & Photography 2" id="" />
                                             <label class="form-check-label" for=""> Graphic Design & Photography 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Electronics 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Electronics 1" id="" />
                                             <label class="form-check-label" for=""> Electronics 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Electronics 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Electronics 2" id="" />
                                             <label class="form-check-label" for=""> Honors Electronics 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Engineering Graphics 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Engineering Graphics 1" id="" />
                                             <label class="form-check-label" for=""> Engineering Graphics 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Engineering Graphics 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Engineering Graphics 2" id="" />
                                             <label class="form-check-label" for=""> Honors Engineering Graphics 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Video Editing & Media Production 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Video Editing & Media Production 1" id="" />
                                             <label class="form-check-label" for=""> Video Editing & Media Production 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Video Editing & Media Production 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Video Editing & Media Production 2" id="" />
                                             <label class="form-check-label" for=""> Video Editing & Media Production 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Innovation and Design (Requires recommendation!!)" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Innovation and Design (Requires recommendation!!)" id="" />
                                             <label class="form-check-label" for=""> Honors Innovation and Design (Requires recommendation!!) </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP Computer Science Principles" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP Computer Science Principles" id="" />
                                             <label class="form-check-label" for=""> AP Computer Science Principles </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Intro to Woodworking" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Intro to Woodworking" id="" />
                                             <label class="form-check-label" for=""> Intro to Woodworking </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Cabinet Making" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Cabinet Making" id="" />
                                             <label class="form-check-label" for=""> Cabinet Making </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Advanced Cabinet Making" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Advanced Cabinet Making" id="" />
                                             <label class="form-check-label" for=""> Advanced Cabinet Making </label>
                                         </div>  
                                     </td>
@@ -567,142 +568,142 @@
                                     <td>Visual & Performing Arts</td>
                                     <td>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Fine Art 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Fine Art 1" id="" />
                                             <label class="form-check-label" for=""> Fine Art 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Fine Art 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Fine Art 2" id="" />
                                             <label class="form-check-label" for=""> Fine Art 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Fine Art 3" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Fine Art 3" id="" />
                                             <label class="form-check-label" for=""> Fine Art 3 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Fine Art 4" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Fine Art 4" id="" />
                                             <label class="form-check-label" for=""> Honors Fine Art 4 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Applied Art 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Applied Art 1" id="" />
                                             <label class="form-check-label" for=""> Applied Art 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Applied Art 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Applied Art 2" id="" />
                                             <label class="form-check-label" for=""> Applied Art 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Applied Art 3" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Applied Art 3" id="" />
                                             <label class="form-check-label" for=""> Applied Art 3 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Applied Art 4" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Applied Art 4" id="" />
                                             <label class="form-check-label" for=""> Honors Applied Art 4 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="AP Studio Art" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="AP Studio Art" id="" />
                                             <label class="form-check-label" for=""> AP Studio Art </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Band 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Band 1" id="" />
                                             <label class="form-check-label" for=""> Band 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Band 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Band 2" id="" />
                                             <label class="form-check-label" for=""> Band 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value=" Honors Band 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value=" Honors Band 2" id="" />
                                             <label class="form-check-label" for=""> Honors Band 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Band 3" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Band 3" id="" />
                                             <label class="form-check-label" for=""> Band 3 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value=" Honors Band 3" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value=" Honors Band 3" id="" />
                                             <label class="form-check-label" for=""> Honors Band 3 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Band 4" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Band 4" id="" />
                                             <label class="form-check-label" for=""> Band 4 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value=" Honors Band 4" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value=" Honors Band 4" id="" />
                                             <label class="form-check-label" for=""> Honors Band 4 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Chorus 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Chorus 1" id="" />
                                             <label class="form-check-label" for=""> Chorus 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Chorus 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Chorus 2" id="" />
                                             <label class="form-check-label" for=""> Chorus 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value=" Honors Chorus 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value=" Honors Chorus 2" id="" />
                                             <label class="form-check-label" for=""> Honors Chorus 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Chorus 3" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Chorus 3" id="" />
                                             <label class="form-check-label" for=""> Chorus 3 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value=" Honors Chorus 3" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value=" Honors Chorus 3" id="" />
                                             <label class="form-check-label" for=""> Honors Chorus 3 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Chorus 4" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Chorus 4" id="" />
                                             <label class="form-check-label" for=""> Chorus 4 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value=" Honors Chorus 4" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value=" Honors Chorus 4" id="" />
                                             <label class="form-check-label" for=""> Honors Chorus 4 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Pop Music 1" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Pop Music 1" id="" />
                                             <label class="form-check-label" for=""> Pop Music 1 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Pop Music 2" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Pop Music 2" id="" />
                                             <label class="form-check-label" for=""> Pop Music 2 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value=" Drama" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value=" Drama" id="" />
                                             <label class="form-check-label" for=""> Drama </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Advanced Drama" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Advanced Drama" id="" />
                                             <label class="form-check-label" for=""> Advanced Drama </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Public Speaking" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Public Speaking" id="" />
                                             <label class="form-check-label" for=""> Public Speaking </label>
                                         </div>
                                     </td>
@@ -712,17 +713,17 @@
                                     <td>Web Design Pathway Program</td>
                                     <td>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Web Design" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Web Design" id="" />
                                             <label class="form-check-label" for=""> Honors Web Design </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors Advanced Web Design" id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors Advanced Web Design" id="" />
                                             <label class="form-check-label" for=""> Honors Advanced Web Design </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" value="Honors NJIT IS219 Advanced Website Development " id="" v-model="takenCourses"/>
+                                            <input class="form-check-input" type="checkbox" value="Honors NJIT IS219 Advanced Website Development " id="" />
                                             <label class="form-check-label" for=""> Honors NJIT IS219 Advanced Website Development  </label>
                                         </div>
                                     </td>
@@ -733,13 +734,12 @@
                     <button type="button" class="btn btn-success my-3 toNextTable" style="width:100px;" @click="nextTableSelection()">Next</button>
                     <button type="button" class="btn btn-success my-3 toMajors" style="width:100px;" @click="majorSelection()" hidden>To Majors</button>
                 </div>
-
                 <!-- major selection -->
-<div class="row justify-content-center majors" hidden>
+                <div class="row justify-content-center majors" hidden>
                     <h2 class="my-4">Select your intended major/primary interest:</h2>
                     <div class="col-md-6">
-                    <select class="form-select" aria-label="Default select example" v-model="major">
-                        <option disabled value="">Select your major/interest:</option>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Select your major/interest:</option>
                         <option value="Computer Science">Computer Science</option>
                         <option value="Business/Management">Business/Management</option>
                         <option value="Psychology">Psychology</option>
@@ -767,79 +767,13 @@
                         <button type="button" class="btn btn-success my-3" @click="nextPage()">Next</button>
                     </div>
                 </div>
+                
             </section>
             <section id="info" hidden>
-                <h1>Current Statistics</h1>
-                <div class="row">
-                    <h3>Current Grade: {{ grade }}th Grade</h3>
-                    <h3>Next Grade: {{ grade + 1 }}th Grade</h3>
-                    <h3>Major: {{ major }} </h3>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-12">
-                        <h2>All Courses Taken:</h2>
-                        <ul>
-                            <li v-for="course in takenCourses" :key="course">{{ course }}</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 col-sm-12">
-                        <h2>Current Requirements Fufilled</h2>
-                        <ul>
-                            <li>English: {{ engCounter }} / {{ mandatoryEngCourses }}
-                                <p v-if="mandatoryEngCourses - engCounter > 1">{{ mandatoryEngCourses - engCounter }} years left</p>
-                                <p v-else-if="mandatoryEngCourses - engCounter == 1">{{ mandatoryEngCourses - engCounter }} year left</p>
-                                <p v-else>You have completed all English requirements.</p>
-                            </li>
-                            <li>Math: {{ mathCounter }} / {{ mandatoryMathCourses }}
-                                <p v-if="mandatoryMathCourses - mathCounter > 1">{{ mandatoryMathCourses - mathCounter }} years left</p>
-                                <p v-else-if="mandatoryMathCourses - mathCounter == 1">{{ mandatoryMathCourses - mathCounter }} year left</p>
-                                <p v-else>You have completed all Math requirements.</p>
-                            </li>
-                            <li>Science: {{ sciCounter }} / {{ mandatorySciCourses }}
-                                <p v-if="mandatorySciCourses - sciCounter > 1">{{ mandatorySciCourses - sciCounter }} years left</p>
-                                <p v-else-if="mandatorySciCourses - sciCounter == 1">{{ mandatorySciCourses - sciCounter }} year left</p>
-                                <p v-else>You have completed all Science requirements.</p>  
-                            </li>
-                            <li>History: {{ histCounter }} / {{ mandatoryHistCourses }}
-                                <p v-if="mandatoryHistCourses - histCounter > 1">{{ mandatoryHistCourses - histCounter }} years left</p>
-                                <p v-else-if="mandatoryHistCourses - histCounter == 1">{{ mandatoryHistCourses - histCounter }} year left</p>
-                                <p v-else>You have completed all History requirements.</p>
-                            </li>
-                            <li>Language: {{ langCounter }} / {{ mandatoryLangCourses }}
-                                <p v-if="mandatoryLangCourses - langCounter > 1">{{ mandatoryLangCourses - langCounter }} years left</p>
-                                <p v-else-if="mandatoryLangCourses - langCounter == 1">{{ mandatoryLangCourses - langCounter }} year left</p>
-                                <p v-else>You have completed all Language requirements.</p>
-                            </li>
-                            <li>Art: {{ artCounter }} / {{ mandatoryArtCourses }}
-                                <p v-if="mandatoryArtCourses - artCounter > 0">{{ mandatoryArtCourses - artCounter }} year left</p>
-                                <p v-else>You have completed the Art requirement.</p>
-                            </li>
-                            <li>Financial Literacy: {{ financialLitCounter }} / {{ mandatoryFinancialLitCourses }}
-                                <p v-if="mandatoryFinancialLitCourses - financialLitCounter > 0">{{ mandatoryFinancialLitCourses - financialLitCounter }} year left</p>
-                                <p v-else>You have completed the Financial Literacy requirement.</p>
-                            </li>
-                            <li>21st Century Elective: {{ centuryElectiveCounter }} / {{ mandatoryCenturyElectiveCourses }}
-                                <p v-if="mandatoryCenturyElectiveCourses - centuryElectiveCounter > 0">{{ mandatoryCenturyElectiveCourses - centuryElectiveCounter }} year left</p>
-                                <p v-else>You have completed the 21st Century Elective requirement.</p>
-                            </li>
-                        </ul>
-                </div>
-                    <div class="col-md-4 col-sm-12">
-                        <h2>Recommended Courses Based on Major</h2>
-                        <ul>
-    <li v-for="rec in recommendedCourses" :key="rec">{{ rec }}</li>
-</ul>
-                    </div>
-                    <div class="row">
-                        <div class="col-4 col-sm-12">
-                            <button type="button" class="btn btn-primary my-3" @click="previousPage()">Previous</button>
-                            <button type="button" class="btn btn-primary my-3" @click="nextPage()">Next</button>
-                        </div>
-                    </div>
-                </div>
+                <!-- gvfgh -->
             </section>
-            <section id="sampleSchedule">
-                sddsa
+            <section id="sampleSchedule" hidden>
+                <!-- sddsa -->
             </section>
 
             <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -862,3 +796,4 @@
         <script src="script.js"></script>
     </body>
 </html>
+

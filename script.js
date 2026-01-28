@@ -47,6 +47,57 @@ const app = Vue.createApp({
             nextPage.hidden = false;
           }
         },
+         toTableSelection() {
+            const gradeSelect=document.querySelector('.gradeSelect')
+            const classes=document.querySelector('.classes')
+            gradeSelect.hidden=true;
+            classes.hidden=false;
+        },
+        nextTableSelection() {
+            // Logic to navigate to the next table selection area
+          //this finds the current visible page thats not hidden
+          const tbody=document.querySelector('tbody')
+          const currentTableSelection = tbody.querySelector('tr:not([hidden])')
+          const tableSelectionBtn=document.querySelector('.toNextTable')
+          const majorSelectionBtn=document.querySelector('.toMajors')
+
+          if(!currentTableSelection) {
+            tableSelectionBtn.hidden=true;
+            majorSelectionBtn.hidden=false;
+            return;
+          }
+
+          //this find the next page after the current page
+          let nextTableSelection = currentTableSelection.nextElementSibling;
+          //this is a loop that goes through the next pages until there is no more pages
+         while (nextTableSelection && nextTableSelection.tagName !== 'TR') {
+            //this moves to the next sibling element (next page)
+            nextTableSelection = nextTableSelection.nextElementSibling;
+          }
+          //if another page exists, hide the current page and show the next page
+         if (nextTableSelection) {
+            currentTableSelection.hidden = true;
+            nextTableSelection.hidden = false;
+
+            tableSelectionBtn.hidden=false;
+            majorSelectionBtn.hidden=true;
+          } else {
+
+            tableSelectionBtn.hidden=true;
+            majorSelectionBtn.hidden=false;
+          }
+        },
+        majorSelection() {
+            // Logic to navigate to the next table selection area
+          //this finds the current visible page thats not hidden
+          const majors=document.querySelector('.majors')
+          const classes=document.querySelector('.classes')
+          const gradeSelect=document.querySelector('.gradeSelect')
+          //if another page exists, hide the current page and show the next page
+            gradeSelect.hidden=true;
+            classes.hidden = true;
+            majors.hidden = false;
+        },
         previousPage() {
           // Logic to navigate to the previous section
           const currentPage = document.querySelector('section:not([hidden])');
@@ -149,13 +200,33 @@ const app = Vue.createApp({
     computed: {
         recommendedCourses() {
             //if user does not select a major, nothing is recommended
-      if (!this.major) return [];
+      // if (!this.major) return [];
+      // // Returns all courses for the selected major
+      // return this.courses
+      //     .filter(course => course.majors.includes(this.major))// filters the courses based on major
+      //   .filter(course => !this.takenCourses.includes(course.name)) // exclude courses that user has already taken
+      //   .map(course => course.name); // return course names
 
+            //if user does not select a major, nothing is recommended
+        if (!this.major) return [];
+        let index = 0;
+        if (this.grade === 9) {
+          index = 0;
+        } else if (this.grade === 10) {
+          index = 1;
+        } else if (this.grade === 11) {
+          index = 2;
+        } else if (this.grade === 12) {
+          index = 3;
+        }
+          
       // Returns all courses for the selected major
       return this.courses
-          .filter(course => course.majors.includes(this.major))// filters the courses based on major
+        .filter(course => course.majors.includes(this.major))// filters the courses based on major
+        .filter(course => ((course.grades[index] > this.grade && course.grades[index] <= this.grade + 1 && course.grades[index] < this.grade + 2))) // filters courses based on grade level
         .filter(course => !this.takenCourses.includes(course.name)) // exclude courses that user has already taken
         .map(course => course.name); // return course names
+
     }
 },
     watch: {
