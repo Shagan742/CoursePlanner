@@ -32,16 +32,17 @@
                         craft your own sample schedule to help determine what courses you will take in your next year at Marlboro High School.</p>
                         <button type="button" class="btn btn-success my-3" @click="nextPage()">Get Started</button>
                     </div>
+            </section>
             <section id="coursesTaken+Major" class="row text-center justify-content-center align-content-center mx-3" style="min-height:900px;" hidden>
                 <!-- grade selection -->
                 <div class="row">
                     <h2>Select your grade:</h2>
                     <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="9th" value="option1">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="9th" value="9" v-model="grade">
                     <label class="form-check-label" for="9th">9th Grade</label>
                 </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="10th" value="option2">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="10th" value="10" v-model="grade">
                         <label class="form-check-label" for="10th">10th Grade</label>
                     </div>
                     <div class="col-sm-2">
@@ -728,7 +729,7 @@
                     <button type="button" class="btn btn-success my-3 toNextTable" style="width:100px;" @click="nextTableSelection()">Next</button>
                     <button type="button" class="btn btn-success my-3 toMajors" style="width:100px;" @click="majorSelection()" hidden>To Majors</button>
                 </div>
-
+        </section>
                 <!-- major selection -->
 <div class="row justify-content-center majors" hidden>
                     <h2 class="my-4">Select your intended major/primary interest:</h2>
