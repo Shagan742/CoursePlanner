@@ -102,7 +102,7 @@
                                         <br>
                                         <div class="form-check form-check-inline">
                                             <input class="form-check-input" type="checkbox" value="English 3" id="" v-model="takenCourses"/>
-                                            <label class="form-check-label" for="">  English 3 </label>
+                                            <label class="form-check-label" for=""> English 3 </label>
                                         </div>
                                         <br>
                                         <div class="form-check form-check-inline">
@@ -731,12 +731,14 @@
                             </tbody>
                         </table>
                     
-                    <button type="button" class="btn btn-success my-3 toNextTable" style="width:100px;" @click="nextTableSelection()">Next</button>
-                    <button type="button" class="btn btn-success my-3 toMajors" style="width:100px;" @click="majorSelection()" hidden>To Majors</button>
+                    <button type="button" class="btn btn-primary my-3 toNextTable" style="width:100px;" @click="nextTableSelection()">Next</button>
+                    <button type="button" class="btn btn-success my-3 toMajors" style="width:100px;" @click="nextPage()" hidden>Next (Click again)</button>
                 </div>
         </section>
+                
+            <section id="info" hidden>
                 <!-- major selection -->
-<div class="row justify-content-center majors" hidden>
+                <div class="row justify-content-center majors">
                     <h2 class="my-4">Select your intended major/primary interest:</h2>
                     <div class="col-md-6">
                     <select class="form-select" aria-label="Default select example" v-model="major">
@@ -764,12 +766,7 @@
                     </select>
                     </div>
                     <br>
-                    <div class="col-sm-12">
-                        <button type="button" class="btn btn-success my-3" @click="nextPage()">Next</button>
-                    </div>
                 </div>
-            </section>
-            <section id="info" hidden>
                 <h1>Current Statistics</h1>
                 <div class="row">
                     <h3>Current Grade: {{ grade }}th Grade</h3>

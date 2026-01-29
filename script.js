@@ -87,29 +87,6 @@ const app = Vue.createApp({
             majorSelectionBtn.hidden=false;
           }
         },
-        majorSelection() {
-            // Logic to navigate to the next table selection area
-          //this finds the current visible page thats not hidden
-          const majors=document.querySelector('.majors')
-          const classes=document.querySelector('.classes')
-          const gradeSelect=document.querySelector('.gradeSelect')
-          //if another page exists, hide the current page and show the next page
-            gradeSelect.hidden=true;
-            classes.hidden = true;
-            majors.hidden = false;
-        },
-        previousPage() {
-          // Logic to navigate to the previous section
-          const currentPage = document.querySelector('section:not([hidden])');
-          let previousPage = currentPage.previousElementSibling;
-          while (previousPage && previousPage.tagName !== 'SECTION') {
-            previousPage = previousPage.previousElementSibling;
-          }
-          if (previousPage) {
-            currentPage.hidden = true;
-            previousPage.hidden = false;
-          }
-        },
           updateCounters() {
   // Reset all counters
   this.engCounter = 0;
@@ -119,7 +96,7 @@ const app = Vue.createApp({
   this.langCounter = 0;
   this.artCounter = 0;
   this.financialLitCounter = 0;
-              this.centuryElectiveCounter = 0;
+  this.centuryElectiveCounter = 0;
            
 
   // Loop through takenCourses and count per subject
