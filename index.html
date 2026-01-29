@@ -35,15 +35,20 @@
             </section>
             <section id="coursesTaken+Major" class="row text-center justify-content-center align-content-center mx-3" style="min-height:900px;" hidden>
                 <!-- grade selection -->
-                <div class="row">
-                    <h2>Select your grade:</h2>
-                    <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="9th" value="9" v-model="grade">
-                    <label class="form-check-label" for="9th">9th Grade</label>
-                </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="10th" value="10" v-model="grade">
-                        <label class="form-check-label" for="10th">10th Grade</label>
+                <div class="gradeSelect row justify-content-center">
+                    <h2 class="mb-4">Select your grade:</h2>
+                    
+                    <div class="col-sm-2">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="9th" value="9" v-model="grade">
+                            <label class="form-check-label" for="9th">9th Grade</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="10th" value="10" v-model="grade">
+                            <label class="form-check-label" for="10th">10th Grade</label>
+                        </div>
                     </div>
                     <div class="col-sm-2">
                         <div class="form-check form-check-inline">
