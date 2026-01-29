@@ -31,7 +31,7 @@ const app = Vue.createApp({
   },
     methods: {
         nextPage() {
-          // Logic to navigate to the next section
+          // Logic to navigate to the next major section
           //this finds the current visible page thats not hidden
           const currentPage = document.querySelector('section:not([hidden])');
           //this find the next page after the current page
