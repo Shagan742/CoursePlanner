@@ -568,9 +568,9 @@
                 ],
         "subject":"Mathematics",
         "Pre-Requisites":["Geometry", "Honors Geometry", "Technology Systems & Design", 
-    "Honors Architecture 1", "Honors Architecture 2", "Graphic Design & Photography 1", 
-    "Graphic Design & Photography 2", "Honors Electronics 1", "Honors Electronics 2",
-    "Honors Engineering Graphics 1", "Honors Engineering Graphics 2", "Video Editing & Media Production 1",
+    "Architecture 1", "Honors Architecture 2", "Graphic Design & Photography 1", 
+    "Graphic Design & Photography 2", "Electronics 1", "Honors Electronics 2",
+    "Engineering Graphics 1", "Honors Engineering Graphics 2", "Video Editing & Media Production 1",
     "Video Editing & Media Production 2", "Honors Innovation and Design (Requires recommendation!!)", "AP Computer Science Principles",
     "Intro to Woodworking", "Cabinet Making", "Advanced Cabinet Making"]
     },
@@ -588,9 +588,9 @@
                 ],
         "subject":"Mathematics",
         "Pre-Requisites":["Technology Systems & Design", 
-    "Honors Architecture 1", "Honors Architecture 2", "Graphic Design & Photography 1", 
-    "Graphic Design & Photography 2", "Honors Electronics 1", "Honors Electronics 2",
-    "Honors Engineering Graphics 1", "Honors Engineering Graphics 2", "Video Editing & Media Production 1",
+    "Architecture 1", "Honors Architecture 2", "Graphic Design & Photography 1", 
+    "Graphic Design & Photography 2", "Electronics 1", "Honors Electronics 2",
+    "Engineering Graphics 1", "Honors Engineering Graphics 2", "Video Editing & Media Production 1",
     "Video Editing & Media Production 2", "Honors Innovation and Design (Requires recommendation!!)", "AP Computer Science Principles",
     "Intro to Woodworking", "Cabinet Making", "Advanced Cabinet Making"]
     },
@@ -618,7 +618,7 @@
                     "Mathematics"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["Honors Accounting 1"]
+        "Pre-Requisites":["Accounting 1"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -738,7 +738,7 @@
                     "Art/Design"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["Honors Architecture 1"]
+        "Pre-Requisites":["Architecture 1"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -788,7 +788,7 @@
                     "Physics"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["Honors Electronics 1"]
+        "Pre-Requisites":["Electronics 1"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -816,7 +816,7 @@
                     "Physics"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["Honors Engineering Graphics 1"]
+        "Pre-Requisites":["Engineering Graphics 1"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1164,7 +1164,7 @@
     },
     {
         "grades": [10, 11, 12],
-        "name": "Honors Applied Art 2",
+        "name": "Applied Art 2",
         "credits":5,
         "majors":[
                     "Sociology",
@@ -1176,7 +1176,7 @@
     },
     {
         "grades": [10, 11, 12],
-        "name": "Honors Applied Art 3",
+        "name": "Applied Art 3",
         "credits":5,
         "majors":[
                     "Sociology",
@@ -1184,7 +1184,7 @@
                     "Philosophy"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Honors Applied Art 2"]
+        "Pre-Requisites":["Applied Art 2"]
     },
     {
         "grades": [10, 11, 12],
@@ -1196,7 +1196,7 @@
                     "Philosophy"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Honors Applied Art 3"]
+        "Pre-Requisites":["Applied Art 3"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1230,7 +1230,7 @@
     },
     {
         "grades": [10, 11, 12],
-        "name": "Honors Fine Art 2",
+        "name": "Fine Art 2",
         "credits":5,
         "majors":[
                     "Sociology",
@@ -1242,7 +1242,7 @@
     },
     {
         "grades": [10, 11, 12],
-        "name": "Honors Fine Art 3",
+        "name": "Fine Art 3",
         "credits":5,
         "majors":[
                     "Sociology",
@@ -1250,7 +1250,7 @@
                     "Philosophy"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Honors Fine Art 2"]
+        "Pre-Requisites":["Fine Art 2"]
     },
     {
         "grades": [10, 11, 12],
@@ -1262,7 +1262,7 @@
                     "Philosophy"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Honors Fine Art 3"]
+        "Pre-Requisites":["Fine Art 3"]
     },
     {
         "grades": [11, 12],
@@ -1274,7 +1274,7 @@
                     "Philosophy"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Honors Fine Art 2"]
+        "Pre-Requisites":["Fine Art 2"]
     },
     {
         "grades": [9, 10, 11, 12],
