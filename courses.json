@@ -27,7 +27,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"English",
-        "Pre-Requisites":["English 2", "Honors English 2"]
+        "prerequisites":["English 2", "Honors English 2"]
     }, 
     {
         "grades": [11, 12],
@@ -57,7 +57,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"English",
-        "Pre-Requisites":["English 2", "Honors English 2"]
+        "prerequisites":["English 2", "Honors English 2"]
     }, 
     {
         "grades": [11, 12],
@@ -80,7 +80,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"English",
-        "Pre-Requisites":["English 2", "Honors English 2", "English 3", "Honors English 3"]
+        "prerequisites":["English 2", "Honors English 2", "English 3", "Honors English 3"]
     },
     {
         "grades": [11, 12],
@@ -97,7 +97,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"English",
-        "Pre-Requisites":["English 2", "Honors English 2", "English 3", "Honors English 3"]
+        "prerequisites":["English 2", "Honors English 2", "English 3", "Honors English 3"]
     },
     {
         "grades": [10, 11, 12],
@@ -119,7 +119,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Social Studies",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [10, 11, 12],
@@ -135,7 +135,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Social Studies",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [11, 12],
@@ -152,7 +152,7 @@
                     "Philosophy"
                 ],
         "subject":"Social Studies",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [11, 12],
@@ -172,7 +172,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Social Studies",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [10, 11, 12],
@@ -196,7 +196,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Social Studies",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [11, 12],
@@ -213,7 +213,7 @@
                     "Philosophy"
                 ],
         "subject":"Social Studies",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [11, 12],
@@ -232,7 +232,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Social Studies",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [10, 11, 12],
@@ -256,7 +256,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Social Studies",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -274,7 +274,7 @@
                     "Environmental Science"
                 ],
         "subject":"Social Studies",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -304,7 +304,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":["Social Studies", "Financial Literacy"],
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [10, 11, 12],
@@ -324,7 +324,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Social Studies",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [12],
@@ -344,7 +344,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Social Studies",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [11, 12],
@@ -360,7 +360,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Science",
-        "Pre-Requisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
+        "prerequisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
     },
     {
         "grades": [11, 12],
@@ -376,7 +376,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Science",
-        "Pre-Requisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
+        "prerequisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
     },
     {
         "grades": [11, 12],
@@ -390,7 +390,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Science",
-        "Pre-Requisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
+        "prerequisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
     },
     {
         "grades": [11, 12],
@@ -406,7 +406,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Science",
-        "Pre-Requisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
+        "prerequisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
     },
     {
         "grades": [10, 11, 12],
@@ -425,7 +425,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Science",
-        "Pre-Requisites":["Lab Biology", "Honors Lab Biology"]
+        "prerequisites":["Lab Biology", "Honors Lab Biology"]
     },
     {
         "grades": [11, 12],
@@ -442,7 +442,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Science",
-        "Pre-Requisites":["Lab Chemistry"]
+        "prerequisites":["Lab Chemistry"]
     },
     {
         "grades": [11, 12],
@@ -461,7 +461,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Science",
-        "Pre-Requisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
+        "prerequisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
     },
     {
         "grades": [11, 12],
@@ -482,7 +482,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Science",
-        "Pre-Requisites":["Algebra 1", "Honors Algebra 1", "Geometry", "Honors Geometry"]
+        "prerequisites":["Algebra 1", "Honors Algebra 1", "Geometry", "Honors Geometry"]
     },
     {
         "grades": [11, 12],
@@ -501,7 +501,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Science",
-        "Pre-Requisites":["AP Physics 1"]
+        "prerequisites":["AP Physics 1"]
     },
     {
         "grades": [11, 12],
@@ -526,7 +526,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Mathematics",
-        "Pre-Requisites":["Algebra 2", "Honors Algebra 2"]
+        "prerequisites":["Algebra 2", "Honors Algebra 2"]
     },
     {
         "grades": [11, 12],
@@ -551,7 +551,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Mathematics",
-        "Pre-Requisites":["Algebra 2", "Honors Algebra 2"]
+        "prerequisites":["Algebra 2", "Honors Algebra 2"]
     },
     {
         "grades": [10, 11, 12],
@@ -567,7 +567,7 @@
                     "Computer Science"
                 ],
         "subject":"Mathematics",
-        "Pre-Requisites":["Geometry", "Honors Geometry", "Technology Systems & Design", 
+        "prerequisites":["Geometry", "Honors Geometry", "Technology Systems & Design", 
     "Architecture 1", "Honors Architecture 2", "Graphic Design & Photography 1", 
     "Graphic Design & Photography 2", "Electronics 1", "Honors Electronics 2",
     "Engineering Graphics 1", "Honors Engineering Graphics 2", "Video Editing & Media Production 1",
@@ -587,7 +587,7 @@
                     "Mathematics"
                 ],
         "subject":"Mathematics",
-        "Pre-Requisites":["Technology Systems & Design", 
+        "prerequisites":["Technology Systems & Design", 
     "Architecture 1", "Honors Architecture 2", "Graphic Design & Photography 1", 
     "Graphic Design & Photography 2", "Electronics 1", "Honors Electronics 2",
     "Engineering Graphics 1", "Honors Engineering Graphics 2", "Video Editing & Media Production 1",
@@ -605,7 +605,7 @@
                     "Mathematics"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -618,7 +618,7 @@
                     "Mathematics"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["Accounting 1"]
+        "prerequisites":["Accounting 1"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -632,7 +632,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -646,7 +646,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -676,7 +676,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Financial Literacy",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -689,7 +689,7 @@
                     "Communications"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -703,7 +703,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -714,7 +714,7 @@
                     "Engineering"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -726,7 +726,7 @@
                     "Art/Design"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -738,7 +738,7 @@
                     "Art/Design"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["Architecture 1"]
+        "prerequisites":["Architecture 1"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -749,7 +749,7 @@
                     "Art/Design"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -760,7 +760,7 @@
                     "Art/Design"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["Graphic Design & Photography 1"]
+        "prerequisites":["Graphic Design & Photography 1"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -774,7 +774,7 @@
                     "Physics"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -788,7 +788,7 @@
                     "Physics"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["Electronics 1"]
+        "prerequisites":["Electronics 1"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -802,7 +802,7 @@
                     "Physics"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -816,7 +816,7 @@
                     "Physics"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["Engineering Graphics 1"]
+        "prerequisites":["Engineering Graphics 1"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -830,7 +830,7 @@
                     "Art/Design"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -844,7 +844,7 @@
                     "Art/Design"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["Video Editing & Media Production 1"]
+        "prerequisites":["Video Editing & Media Production 1"]
     },
     {
         "grades": [11, 12],
@@ -859,7 +859,7 @@
                     "Art/Design"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [10, 11, 12],
@@ -871,7 +871,7 @@
                     "Art/Design"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -882,7 +882,7 @@
                     "Art/Design"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [10, 11, 12],
@@ -893,7 +893,7 @@
                     "Art/Design"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":"Intro to Woodworking"
+        "prerequisites":"Intro to Woodworking"
     },
     {
         "grades": [11, 12],
@@ -904,7 +904,7 @@
                     "Art/Design"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":"Cabinet Making"
+        "prerequisites":"Cabinet Making"
     },
     {
         "grades": [9, 10, 11, 12],
@@ -934,7 +934,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"World Language",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -964,7 +964,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"World Language",
-        "Pre-Requisites":["Spanish 1"]
+        "prerequisites":["Spanish 1"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -992,7 +992,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"World Language",
-        "Pre-Requisites":["Spanish 2"]
+        "prerequisites":["Spanish 2"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1009,7 +1009,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"World Language",
-        "Pre-Requisites":["Spanish 3"]
+        "prerequisites":["Spanish 3"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1025,7 +1025,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"World Language",
-        "Pre-Requisites":["Honors Spanish 4"]
+        "prerequisites":["Honors Spanish 4"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1055,7 +1055,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"World Language",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1085,7 +1085,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"World Language",
-        "Pre-Requisites":["Italian 1"]
+        "prerequisites":["Italian 1"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1113,7 +1113,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"World Language",
-        "Pre-Requisites":["Italian 2"]
+        "prerequisites":["Italian 2"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1130,7 +1130,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"World Language",
-        "Pre-Requisites":["Italian 3"]
+        "prerequisites":["Italian 3"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1160,7 +1160,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [10, 11, 12],
@@ -1172,7 +1172,7 @@
                     "Philosophy"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Applied Art 1", "Fine Art 1"]
+        "prerequisites":["Applied Art 1", "Fine Art 1"]
     },
     {
         "grades": [10, 11, 12],
@@ -1184,7 +1184,7 @@
                     "Philosophy"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Applied Art 2"]
+        "prerequisites":["Applied Art 2"]
     },
     {
         "grades": [10, 11, 12],
@@ -1196,7 +1196,7 @@
                     "Philosophy"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Applied Art 3"]
+        "prerequisites":["Applied Art 3"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1226,7 +1226,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [10, 11, 12],
@@ -1238,7 +1238,7 @@
                     "Philosophy"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Fine Art 1"]
+        "prerequisites":["Fine Art 1"]
     },
     {
         "grades": [10, 11, 12],
@@ -1250,7 +1250,7 @@
                     "Philosophy"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Fine Art 2"]
+        "prerequisites":["Fine Art 2"]
     },
     {
         "grades": [10, 11, 12],
@@ -1262,7 +1262,7 @@
                     "Philosophy"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Fine Art 3"]
+        "prerequisites":["Fine Art 3"]
     },
     {
         "grades": [11, 12],
@@ -1274,7 +1274,7 @@
                     "Philosophy"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Fine Art 2"]
+        "prerequisites":["Fine Art 2"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1289,7 +1289,7 @@
                     "Philosophy"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1304,7 +1304,7 @@
                     "Philosophy"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1334,7 +1334,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1345,7 +1345,7 @@
                     "Art/Design"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1356,7 +1356,7 @@
                     "Art/Design"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Band 1"]
+        "prerequisites":["Band 1"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1367,7 +1367,7 @@
                     "Art/Design"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Band 2", "Honors Band 2"]
+        "prerequisites":["Band 2", "Honors Band 2"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1378,7 +1378,7 @@
                     "Art/Design"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Band 3", "Honors Band 3"]
+        "prerequisites":["Band 3", "Honors Band 3"]
     },
     {
         "grades": [10, 11, 12],
@@ -1389,7 +1389,7 @@
                     "Art/Design"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Band 1"]
+        "prerequisites":["Band 1"]
     },
     {
         "grades": [10, 11, 12],
@@ -1400,7 +1400,7 @@
                     "Art/Design"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Band 2", "Honors Band 2"]
+        "prerequisites":["Band 2", "Honors Band 2"]
     },
     {
         "grades": [10, 11, 12],
@@ -1411,7 +1411,7 @@
                     "Art/Design"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Band 3", "Honors Band 3"]
+        "prerequisites":["Band 3", "Honors Band 3"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1422,7 +1422,7 @@
                     "Art/Design"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1433,7 +1433,7 @@
                     "Art/Design"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Chorus 1"]
+        "prerequisites":["Chorus 1"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1444,7 +1444,7 @@
                     "Art/Design"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Chorus 2", "Honors Chorus 2"]
+        "prerequisites":["Chorus 2", "Honors Chorus 2"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1455,7 +1455,7 @@
                     "Art/Design"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Chorus 3", "Honors Chorus 3"]
+        "prerequisites":["Chorus 3", "Honors Chorus 3"]
     },
     {
         "grades": [10, 11, 12],
@@ -1466,7 +1466,7 @@
                     "Art/Design"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Chorus 1"]
+        "prerequisites":["Chorus 1"]
     },
     {
         "grades": [10, 11, 12],
@@ -1477,7 +1477,7 @@
                     "Art/Design"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Chorus 2", "Honors Chorus 2"]
+        "prerequisites":["Chorus 2", "Honors Chorus 2"]
     },
     {
         "grades": [10, 11, 12],
@@ -1488,7 +1488,7 @@
                     "Art/Design"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["Chorus 3", "Honors Chorus 3"]
+        "prerequisites":["Chorus 3", "Honors Chorus 3"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1503,7 +1503,7 @@
                     "Philosophy"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1518,7 +1518,7 @@
                     "Philosophy"
                 ],
         "subject":"Visual & Performing Arts",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [11, 12],
@@ -1535,7 +1535,7 @@
                     "Physics"
                 ],
         "subject":"Mathematics",
-        "Pre-Requisites": ["Honors Precalculus", "Honors Algebra 2", "Precalculus"]
+        "prerequisites": ["Honors Precalculus", "Honors Algebra 2", "Precalculus"]
     },
     {
         "grades": [11, 12],
@@ -1552,7 +1552,7 @@
                     "Physics"
                 ],
         "subject":"Mathematics",
-        "Pre-Requisites": ["Honors Precalculus"]
+        "prerequisites": ["Honors Precalculus"]
     },
     {
         "grades": [12],
@@ -1569,7 +1569,7 @@
                     "Physics"
                 ],
         "subject":"Mathematics",
-        "Pre-Requisites": ["AP Calculus BC"]
+        "prerequisites": ["AP Calculus BC"]
     },
     {
         "grades": [11, 12],
@@ -1590,7 +1590,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Mathematics",
-        "Pre-Requisites":["Geometry", "Honors Geometry", "Algebra 2", "Honors Algebra 2"]
+        "prerequisites":["Geometry", "Honors Geometry", "Algebra 2", "Honors Algebra 2"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1620,7 +1620,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Mathematics",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1650,7 +1650,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Mathematics",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1680,7 +1680,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Mathematics",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1710,7 +1710,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Mathematics",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1740,7 +1740,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Mathematics",
-        "Pre-Requisites":["Geometry", "Honors Geometry", "Algebra 1", "Honors Algebra 1"]
+        "prerequisites":["Geometry", "Honors Geometry", "Algebra 1", "Honors Algebra 1"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -1770,7 +1770,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Mathematics",
-        "Pre-Requisites":["Geometry", "Honors Geometry", "Algebra 1", "Honors Algebra 1"]
+        "prerequisites":["Geometry", "Honors Geometry", "Algebra 1", "Honors Algebra 1"]
     },
     {
         "grades": [9],
@@ -1800,7 +1800,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"English",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9],
@@ -1830,7 +1830,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"English",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [10],
@@ -1860,7 +1860,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"English",
-        "Pre-Requisites":["English 1", "Honors English 1"]
+        "prerequisites":["English 1", "Honors English 1"]
     },
     {
         "grades": [10],
@@ -1890,7 +1890,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"English",
-        "Pre-Requisites":["English 1", "Honors English 1"]
+        "prerequisites":["English 1", "Honors English 1"]
     },
     {
         "grades": [11],
@@ -1920,7 +1920,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"English",
-        "Pre-Requisites":["English 2", "Honors English 2"]
+        "prerequisites":["English 2", "Honors English 2"]
     },
     {
         "grades": [11],
@@ -1950,7 +1950,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"English",
-        "Pre-Requisites":["English 2", "Honors English 2"]
+        "prerequisites":["English 2", "Honors English 2"]
     },
     {
         "grades": [12],
@@ -1980,7 +1980,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"English",
-        "Pre-Requisites":["English 3", "Honors English 3"]
+        "prerequisites":["English 3", "Honors English 3"]
     },
     {
         "grades": [9],
@@ -2010,7 +2010,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Social Studies",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9],
@@ -2040,7 +2040,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Social Studies",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [10, 11],
@@ -2070,7 +2070,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Social Studies",
-        "Pre-Requisites":["World History", "Honors World History"]
+        "prerequisites":["World History", "Honors World History"]
     },
     {
         "grades": [10, 11],
@@ -2100,7 +2100,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Social Studies",
-        "Pre-Requisites":["World History", "Honors World History"]
+        "prerequisites":["World History", "Honors World History"]
     },
     {
         "grades": [11, 12],
@@ -2130,7 +2130,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Social Studies",
-        "Pre-Requisites":["US History 1", "Advanced US History 1"]
+        "prerequisites":["US History 1", "Advanced US History 1"]
     },
     {
         "grades": [11, 12],
@@ -2160,7 +2160,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Social Studies",
-        "Pre-Requisites":["US History 1", "Advanced US History 1"]
+        "prerequisites":["US History 1", "Advanced US History 1"]
     },
     {
         "grades": [9],
@@ -2190,7 +2190,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Science",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [9],
@@ -2220,7 +2220,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Science",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [10],
@@ -2250,7 +2250,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Science",
-        "Pre-Requisites":["Lab Biology", "Honors Lab Biology"]
+        "prerequisites":["Lab Biology", "Honors Lab Biology"]
     },
     {
         "grades": [10],
@@ -2280,7 +2280,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Science",
-        "Pre-Requisites":["Lab Biology", "Honors Lab Biology"]
+        "prerequisites":["Lab Biology", "Honors Lab Biology"]
     },
     {
         "grades": [11, 12],
@@ -2310,7 +2310,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Science",
-        "Pre-Requisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
+        "prerequisites":["Lab Biology", "Lab Chemistry", "Honors Lab Biology", "Honors Lab Chemistry"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -2340,7 +2340,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Mathematics",
-        "Pre-Requisites":["Geometry", "Honors Geometry", "Algebra 2", "Honors Algebra 2"]
+        "prerequisites":["Geometry", "Honors Geometry", "Algebra 2", "Honors Algebra 2"]
     },
     {
         "grades": [9, 10, 11, 12],
@@ -2370,7 +2370,7 @@
                     "Health Sciences/Public Health"
                 ],
         "subject":"Mathematics",
-        "Pre-Requisites":["Geometry", "Honors Geometry", "Algebra 2", "Honors Algebra 2"]
+        "prerequisites":["Geometry", "Honors Geometry", "Algebra 2", "Honors Algebra 2"]
     },
     {
         "grades": [10],
@@ -2383,7 +2383,7 @@
                     "Art/Design"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["NONE"]
+        "prerequisites":["NONE"]
     },
     {
         "grades": [11],
@@ -2396,7 +2396,7 @@
                     "Art/Design"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["Honors Web Design"]
+        "prerequisites":["Honors Web Design"]
     },
     {
         "grades": [12],
@@ -2409,6 +2409,6 @@
                     "Art/Design"
                 ],
         "subject":"21st Century Life & Careers",
-        "Pre-Requisites":["Honors Advanced Web Design"]
+        "prerequisites":["Honors Advanced Web Design"]
     }
 ]
