@@ -2382,7 +2382,7 @@
                     "Engineering",
                     "Art/Design"
                 ],
-        "subject":"21st Century Life & Careers",
+        "subject":"Web Design",
         "prerequisites":["NONE"]
     },
     {
@@ -2395,7 +2395,7 @@
                     "Engineering",
                     "Art/Design"
                 ],
-        "subject":"21st Century Life & Careers",
+        "subject":"Web Design",
         "prerequisites":["Honors Web Design"]
     },
     {
@@ -2408,7 +2408,7 @@
                     "Engineering",
                     "Art/Design"
                 ],
-        "subject":"21st Century Life & Careers",
+        "subject":"Web Design",
         "prerequisites":["Honors Advanced Web Design"]
     }
 ]
