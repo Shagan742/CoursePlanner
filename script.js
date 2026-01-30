@@ -10,7 +10,7 @@ const app = Vue.createApp({
         message: 'Hello Vue!',
         grade: 9,
         major: '',
-          takenCourses: [],
+        takenCourses: [],
         engCounter: 0,
         mathCounter: 0,
         sciCounter: 0,
@@ -185,9 +185,11 @@ const app = Vue.createApp({
     return this.courses
       .filter(course => course.majors.includes(this.major))       // Major match
       .filter(course => course.grades.includes(this.nextGrade)) // Next grade
-      .filter(course => !this.takenCourses.includes(course.name)) // Not taken
+      .filter(course => !this.takenCourses.includes(course.name)) // Not taken, and this is the issue
+      // .filter(course => )
       //i removed prereqs bc theres so many issues
       .map(course => course.name);
+
   }
 },
     watch: {
