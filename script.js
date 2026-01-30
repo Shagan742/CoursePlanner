@@ -175,40 +175,20 @@ const app = Vue.createApp({
         },
     },
     computed: {
-        recommendedCourses() {
-            //if user does not select a major, nothing is recommended
-      // if (!this.major) return [];
-      // // Returns all courses for the selected major
-      // return this.courses
-      //     .filter(course => course.majors.includes(this.major))// filters the courses based on major
-      //   .filter(course => !this.takenCourses.includes(course.name)) // exclude courses that user has already taken
-      //   .map(course => course.name); // return course names
+  nextGrade() {
+    return this.grade + 1;
+  },
 
-            //if user does not select a major, nothing is recommended
-        if (!this.major) return [];
-        let index = 0;
-        // if (this.grade === 9) {
-        //   index = 0;
-        // } else if (this.grade === 10) {
-        //   index = 1;
-        // } else if (this.grade === 11) {
-        //   index = 2;
-        // } else if (this.grade === 12) {
-        //   index = 3;
-        // }
-          
-      // Returns all courses for the selected major
-      return this.courses
-        .filter(course => course.majors.includes(this.major))// filters the courses based on major
-        .filter(course => course.grades.includes(this.nextGrade)) // filters courses based on grade level
-        .filter(course => course.prerequisites.every(prereq => this.takenCourses.includes(prereq))) // exclude courses for which user hasn't met prerequisites
-        .filter(course => !this.takenCourses.includes(course.name)) // exclude courses that user has already taken
-        .map(course => course.name); // return course names
+  recommendedCourses() {
+    if (!this.major) return [];
 
-      },
-      nextGrade() {
-        return this.grade + 1;
-      } 
+    return this.courses
+      .filter(course => course.majors.includes(this.major))       // Major match
+      .filter(course => course.grades.includes(this.nextGrade)) // Next grade
+      .filter(course => !this.takenCourses.includes(course.name)) // Not taken
+      //i removed prereqs bc theres so many issues
+      .map(course => course.name);
+  }
 },
     watch: {
           //this will watch for changes when user selects courses
