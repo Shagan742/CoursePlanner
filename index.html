@@ -304,22 +304,20 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr v-for="subject in mustCompleteSubjects">
+                        <tr v-for="(subject, index) in mustCompleteSubjects">
                             <td>{{subject}}</td>
                             <td>
-                                <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Select Course
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li v-for="theCourse in filterBySubject(subject)" :key="theCourse.id">
-                                            <a class="dropdown-item" >{{theCourse.name}}</a></li>
-                                    </ul>
-                                </div>
+                                <select class="form-select" aria-label="Default select example" v-model="sampleCourses[index]">
+                                    <option disabled value="">Select Course</option>
+                                    <option :value="theCourse.name" v-for="theCourse in filterBySubject(subject)" :key="theCourse.id">{{theCourse.name}}</option>
+                                </select>
                             </td>
                         </tr>
                     </tbody>
                 </table>
+                <button type="button" class="btn btn-primary my-3" @click="previousPage()">Previous</button>
+                <button type="button" class="btn btn-primary my-3" @click="addFavorite()">Save to Favorites</button>
+                <a role="button" class="btn btn-primary my-3" href="favorites.html">Go to Favorites</a>
             </section>
 
             <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>

@@ -27,7 +27,10 @@ const app = Vue.createApp({
       mandatoryLangCourses: 2,
       mandatoryArtCourses: 1,
       mandatoryFinancialLitCourses: 1,
-      mandatoryCenturyElectiveCourses: 1
+      mandatoryCenturyElectiveCourses: 1,
+      sampleCourses: [],
+      favoriteCourseNames: [],
+      favoriteCourses:[]
     }
   },
   methods: {
@@ -176,6 +179,19 @@ const app = Vue.createApp({
     },
     filterBySubject(sub) {
       return this.recCourseForDropdowns.filter(course => course.subject.includes(sub))
+    },
+    addFavorite() {
+      this.sampleCourses.forEach(course => {
+        this.favoriteCourseNames.push(course)
+      })
+      // this.favoriteCourses.push(this.courses.filter(course => this.favoriteCourseNames.includes(course.name)))
+      this.favoriteCourses.push(this.favoriteCourseNames)
+
+      const stringifyFavCourses=JSON.stringify(this.favoriteCourses)
+      localStorage.setItem('favoriteCourses', stringifyFavCourses);
+
+      this.favoriteCourseNames=[];
+      this.sampleCourses=[];
     }
   },
   computed: {
