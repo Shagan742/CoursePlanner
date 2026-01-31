@@ -25,7 +25,7 @@
             <!-- place navbar here -->
         </header>
         <main class="container" id="app">
-            <section id="home" class="row text-center justify-content-center align-content-center mx-3" style="min-height:900px;">
+            <section id="home" class="row text-center justify-content-center align-content-center mx-3" style="min-height:100vh">
                     <div class="col-md-5">
                         <h1 class="my-4">Course Planner</h1>
                         <p>Welcome to Course Planner! Ever feel overwhelmed during course selection season? Here, you can receive course recommendations and 
@@ -33,7 +33,7 @@
                         <button type="button" class="btn btn-success my-3" @click="nextPage()">Get Started</button>
                     </div>
             </section>
-            <section id="coursesTaken+Major" class="row text-center justify-content-center align-content-center mx-3" style="min-height:900px;" hidden>
+            <section id="coursesTaken+Major" class="row text-center justify-content-center align-content-center mx-3" style="min-height:100vh" hidden>
                 <!-- grade selection -->
                 <div class="gradeSelect row justify-content-center">
                     <h2 class="mb-4">Select your grade:</h2>
@@ -295,8 +295,31 @@
                 </div>
                 
             </section>
-            <section id="sampleSchedule" hidden>
-                <!-- sddsa -->
+            <section id="sampleSchedule" class="row text-center justify-content-center align-content-center mx-3" style="min-height:100vh" hidden>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Course Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="subject in mustCompleteSubjects">
+                            <td>{{subject}}</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Select Course
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li v-for="theCourse in filterBySubject(subject)" :key="theCourse.id">
+                                            <a class="dropdown-item" >{{theCourse.name}}</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
 
             <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>

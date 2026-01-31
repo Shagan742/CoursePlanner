@@ -174,6 +174,9 @@ const app = Vue.createApp({
 
       });
     },
+    filterBySubject(sub) {
+      return this.recCourseForDropdowns.filter(course => course.subject.includes(sub))
+    }
   },
   computed: {
     englishCourses() {
@@ -213,11 +216,75 @@ const app = Vue.createApp({
         .filter(course => course.majors.includes(this.major))       // Major match
         .filter(course => course.grades.includes(this.nextGrade)) // Next grade
         .filter(course => !this.takenCourses.some(taken => taken.id === course.id)) //see if taken course by user has same id as a course in json so that course wont be shown
-        .filter(course => course.prerequisites[0]==="NONE" || this.takenCourses.some(taken=> course.prerequisites.some(prereq => prereq.id==taken.id))) //see if a course has no prereqs OR if what the user took is a prereq for another course, then display that course
+        // .filter(course => course.prerequisites[0]==="NONE" || this.takenCourses.some(taken=> course.prerequisites.some(prereq => prereq.id==taken.id))) 
+        .filter(course => course.prerequisites[0]==="NONE" || this.takenCourses.some(taken=> course.prerequisites.includes(taken.name)))//see if a course has no prereqs OR if what the user took is a prereq for another course, then display that course
+
         .map(course => course.name);
 
-    }
-
+    },
+    mustCompleteSubjects() {
+      const subjectCounters = [
+        {
+          subjectName: 'English',
+          count: this.engCounter,
+          mandatory:this.mandatoryEngCourses
+        },
+        { 
+          subjectName: 'Mathematics', 
+          count: this.mathCounter,
+          mandatory:this.mandatoryMathCourses
+        },
+        { 
+          subjectName: 'Science', 
+          count: this.sciCounter,
+          mandatory:this.mandatorySciCourses
+        },
+        { 
+          subjectName: 'Social Studies', 
+          count: this.histCounter,
+          mandatory:this.mandatoryHistCourses
+        },
+        { 
+          subjectName: 'World Language', 
+          count: this.langCounter,
+          mandatory: this.mandatoryLangCourses
+        },
+        { 
+          subjectName: 'Visual & Performing Arts', 
+          count: this.artCounter,
+          mandatory: this.mandatoryArtCourses
+        },
+        { 
+          subjectName: 'Financial Literacy', 
+          count: this.financialLitCounter,
+          mandatory: this.mandatoryFinancialLitCourses
+        },
+        { 
+          subjectName: '21st Century Life & Careers', 
+          count: this.centuryElectiveCounter,
+          mandatory:this.mandatoryCenturyElectiveCourses
+        }
+      ]
+      let subjects=[]
+      for(let i=0; i<subjectCounters.length; i++) {
+        if(subjectCounters[i].count<subjectCounters[i].mandatory) {
+          subjects.push(subjectCounters[i].subjectName)
+        }
+      }
+      return subjects;
+    },
+    recCourseForDropdowns() {
+      if(!this.takenCourses) {
+        return this.courses //incase user forgot to select courses, just show all courses' subjects
+        .filter(course => course.grades.includes(this.nextGrade)) // Next grade
+      }
+      return this.courses
+        // .filter(course => course.majors.includes(this.major))       // Major match
+        .filter(course => course.grades.includes(this.nextGrade)) // Next grade
+        .filter(course => !this.takenCourses.some(taken => taken.id === course.id)) //see if taken course by user has same id as a course in json so that course wont be shown
+        // .filter(course => course.prerequisites[0]==="NONE" || this.takenCourses.some(taken=> course.prerequisites.some(prereq => prereq===taken.name))) 
+        .filter(course => course.prerequisites[0]==="NONE" || this.takenCourses.some(taken=> course.prerequisites.includes(taken.name)))//see if a course has no prereqs OR if what the user took is a prereq for another course, then display that course
+      }
   },
   watch: {
     //this will watch for changes when user selects courses
