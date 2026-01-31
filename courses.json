@@ -63,7 +63,7 @@
   },
   {
     "grades": [11, 12],
-    "name": "AP English Language \u0026 Composition",
+    "name": "AP English Language & Composition",
     "credits": 5,
     "majors": [
       "Business/Management",
@@ -237,7 +237,7 @@
   },
   {
     "grades": [11, 12],
-    "name": "AP Government \u0026 Politics",
+    "name": "AP Government & Politics",
     "credits": 5,
     "majors": [
       "Psychology",
@@ -438,7 +438,7 @@
   },
   {
     "grades": [11, 12],
-    "name": "Honors Anatomy \u0026 Physiology",
+    "name": "Honors Anatomy & Physiology",
     "credits": 5,
     "majors": [
       "Biology",
@@ -637,17 +637,17 @@
     "prerequisites": [
       "Geometry",
       "Honors Geometry",
-      "Technology Systems \u0026 Design",
+      "Technology Systems & Design",
       "Architecture 1",
       "Honors Architecture 2",
-      "Graphic Design \u0026 Photography 1",
-      "Graphic Design \u0026 Photography 2",
+      "Graphic Design & Photography 1",
+      "Graphic Design & Photography 2",
       "Electronics 1",
       "Honors Electronics 2",
       "Engineering Graphics 1",
       "Honors Engineering Graphics 2",
-      "Video Editing \u0026 Media Production 1",
-      "Video Editing \u0026 Media Production 2",
+      "Video Editing & Media Production 1",
+      "Video Editing & Media Production 2",
       "Honors Innovation and Design (Requires recommendation!!)",
       "AP Computer Science Principles",
       "Intro to Woodworking",
@@ -670,17 +670,17 @@
     ],
     "subject": "Mathematics",
     "prerequisites": [
-      "Technology Systems \u0026 Design",
+      "Technology Systems & Design",
       "Architecture 1",
       "Honors Architecture 2",
-      "Graphic Design \u0026 Photography 1",
-      "Graphic Design \u0026 Photography 2",
+      "Graphic Design & Photography 1",
+      "Graphic Design & Photography 2",
       "Electronics 1",
       "Honors Electronics 2",
       "Engineering Graphics 1",
       "Honors Engineering Graphics 2",
-      "Video Editing \u0026 Media Production 1",
-      "Video Editing \u0026 Media Production 2",
+      "Video Editing & Media Production 1",
+      "Video Editing & Media Production 2",
       "Honors Innovation and Design (Requires recommendation!!)",
       "AP Computer Science Principles",
       "Intro to Woodworking",
@@ -694,7 +694,7 @@
     "name": "Accounting 1",
     "credits": 5,
     "majors": ["Business/Management", "Finance", "Economics", "Mathematics"],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["NONE"],
     "id": 30
   },
@@ -703,7 +703,7 @@
     "name": "Honors Accounting 2",
     "credits": 5,
     "majors": ["Business/Management", "Finance", "Economics", "Mathematics"],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["Accounting 1"],
     "id": 31
   },
@@ -718,7 +718,7 @@
       "Communications",
       "Health Sciences/Public Health"
     ],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["NONE"],
     "id": 32
   },
@@ -733,7 +733,7 @@
       "Communications",
       "Health Sciences/Public Health"
     ],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["NONE"],
     "id": 33
   },
@@ -770,7 +770,7 @@
   },
   {
     "grades": [9, 10, 11, 12],
-    "name": "Business Law \u0026 Ethics",
+    "name": "Business Law & Ethics",
     "majors": [
       "Business/Management",
       "Finance",
@@ -778,7 +778,7 @@
       "Political Science",
       "Communications"
     ],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["NONE"],
     "id": 35
   },
@@ -793,16 +793,16 @@
       "Communications",
       "Health Sciences/Public Health"
     ],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["NONE"],
     "id": 36
   },
   {
     "grades": [9, 10, 11, 12],
-    "name": "Technology Systems \u0026 Design",
+    "name": "Technology Systems & Design",
     "credits": 5,
     "majors": ["Computer Science", "Engineering"],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["NONE"],
     "id": 37
   },
@@ -811,7 +811,7 @@
     "name": "Architecture 1",
     "credits": 5,
     "majors": ["Engineering", "Mathematics", "Art/Design"],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["NONE"],
     "id": 38
   },
@@ -820,26 +820,26 @@
     "name": "Honors Architecture 2",
     "credits": 5,
     "majors": ["Engineering", "Mathematics", "Art/Design"],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["Architecture 1"],
     "id": 39
   },
   {
     "grades": [9, 10, 11, 12],
-    "name": "Graphic Design \u0026 Photography 1",
+    "name": "Graphic Design & Photography 1",
     "credits": 5,
     "majors": ["Computer Science", "Art/Design"],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["NONE"],
     "id": 40
   },
   {
     "grades": [9, 10, 11, 12],
-    "name": "Graphic Design \u0026 Photography 2",
+    "name": "Graphic Design & Photography 2",
     "credits": 5,
     "majors": ["Computer Science", "Art/Design"],
-    "subject": "21st Century Life \u0026 Careers",
-    "prerequisites": ["Graphic Design \u0026 Photography 1"],
+    "subject": "21st Century Life & Careers",
+    "prerequisites": ["Graphic Design & Photography 1"],
     "id": 41
   },
   {
@@ -853,7 +853,7 @@
       "Chemistry",
       "Physics"
     ],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["NONE"],
     "id": 42
   },
@@ -868,7 +868,7 @@
       "Chemistry",
       "Physics"
     ],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["Electronics 1"],
     "id": 43
   },
@@ -883,7 +883,7 @@
       "Chemistry",
       "Physics"
     ],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["NONE"],
     "id": 44
   },
@@ -898,13 +898,13 @@
       "Chemistry",
       "Physics"
     ],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["Engineering Graphics 1"],
     "id": 45
   },
   {
     "grades": [9, 10, 11, 12],
-    "name": "Video Editing \u0026 Media Production 1",
+    "name": "Video Editing & Media Production 1",
     "credits": 5,
     "majors": [
       "Business/Management",
@@ -913,13 +913,13 @@
       "Communications",
       "Art/Design"
     ],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["NONE"],
     "id": 46
   },
   {
     "grades": [9, 10, 11, 12],
-    "name": "Video Editing \u0026 Media Production 2",
+    "name": "Video Editing & Media Production 2",
     "credits": 5,
     "majors": [
       "Business/Management",
@@ -928,8 +928,8 @@
       "Communications",
       "Art/Design"
     ],
-    "subject": "21st Century Life \u0026 Careers",
-    "prerequisites": ["Video Editing \u0026 Media Production 1"],
+    "subject": "21st Century Life & Careers",
+    "prerequisites": ["Video Editing & Media Production 1"],
     "id": 47
   },
   {
@@ -944,7 +944,7 @@
       "Physics",
       "Art/Design"
     ],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["NONE"],
     "id": 48
   },
@@ -953,7 +953,7 @@
     "name": "AP Computer Science Principles",
     "credits": 5,
     "majors": ["Computer Science", "Engineering", "Art/Design"],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["NONE"],
     "id": 49
   },
@@ -962,7 +962,7 @@
     "name": "Intro to Woodworking",
     "credits": 5,
     "majors": ["Engineering", "Art/Design"],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["NONE"],
     "id": 50
   },
@@ -971,7 +971,7 @@
     "name": "Cabinet Making",
     "credits": 5,
     "majors": ["Engineering", "Art/Design"],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": "Intro to Woodworking",
     "id": 51
   },
@@ -980,7 +980,7 @@
     "name": "Advanced Cabinet Making",
     "credits": 5,
     "majors": ["Engineering", "Art/Design"],
-    "subject": "21st Century Life \u0026 Careers",
+    "subject": "21st Century Life & Careers",
     "prerequisites": "Cabinet Making",
     "id": 52
   },
@@ -1095,7 +1095,7 @@
   },
   {
     "grades": [9, 10, 11, 12],
-    "name": "AP Spanish Language \u0026 Culture",
+    "name": "AP Spanish Language & Culture",
     "credits": 5,
     "majors": [
       "Psychology",
@@ -1246,7 +1246,7 @@
       "Philosophy",
       "Health Sciences/Public Health"
     ],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["NONE"],
     "id": 62
   },
@@ -1255,7 +1255,7 @@
     "name": "Applied Art 2",
     "credits": 5,
     "majors": ["Sociology", "Art/Design", "Philosophy"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Applied Art 1", "Fine Art 1"],
     "id": 63
   },
@@ -1264,7 +1264,7 @@
     "name": "Applied Art 3",
     "credits": 5,
     "majors": ["Sociology", "Art/Design", "Philosophy"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Applied Art 2"],
     "id": 64
   },
@@ -1273,7 +1273,7 @@
     "name": "Honors Applied Art 4",
     "credits": 5,
     "majors": ["Sociology", "Art/Design", "Philosophy"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Applied Art 3"],
     "id": 65
   },
@@ -1304,7 +1304,7 @@
       "Philosophy",
       "Health Sciences/Public Health"
     ],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["NONE"],
     "id": 66
   },
@@ -1313,7 +1313,7 @@
     "name": "Fine Art 2",
     "credits": 5,
     "majors": ["Sociology", "Art/Design", "Philosophy"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Fine Art 1"],
     "id": 67
   },
@@ -1322,7 +1322,7 @@
     "name": "Fine Art 3",
     "credits": 5,
     "majors": ["Sociology", "Art/Design", "Philosophy"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Fine Art 2"],
     "id": 68
   },
@@ -1331,7 +1331,7 @@
     "name": "Honors Fine Art 4",
     "credits": 5,
     "majors": ["Sociology", "Art/Design", "Philosophy"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Fine Art 3"],
     "id": 69
   },
@@ -1340,7 +1340,7 @@
     "name": "AP Studio Art",
     "credits": 5,
     "majors": ["Sociology", "Art/Design", "Philosophy"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Fine Art 2"],
     "id": 70
   },
@@ -1356,7 +1356,7 @@
       "Art/Design",
       "Philosophy"
     ],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["NONE"],
     "id": 71
   },
@@ -1372,7 +1372,7 @@
       "Art/Design",
       "Philosophy"
     ],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["NONE"],
     "id": 72
   },
@@ -1403,7 +1403,7 @@
       "Philosophy",
       "Health Sciences/Public Health"
     ],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["NONE"],
     "id": 73
   },
@@ -1412,7 +1412,7 @@
     "name": "Band 1",
     "credits": 5,
     "majors": ["English/Literature", "Art/Design"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["NONE"],
     "id": 74
   },
@@ -1421,7 +1421,7 @@
     "name": "Band 2",
     "credits": 5,
     "majors": ["English/Literature", "Art/Design"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Band 1"],
     "id": 75
   },
@@ -1430,7 +1430,7 @@
     "name": "Band 3",
     "credits": 5,
     "majors": ["English/Literature", "Art/Design"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Band 2", "Honors Band 2"],
     "id": 76
   },
@@ -1439,7 +1439,7 @@
     "name": "Band 4",
     "credits": 5,
     "majors": ["English/Literature", "Art/Design"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Band 3", "Honors Band 3"],
     "id": 77
   },
@@ -1448,7 +1448,7 @@
     "name": "Honors Band 2",
     "credits": 5,
     "majors": ["English/Literature", "Art/Design"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Band 1"],
     "id": 78
   },
@@ -1457,7 +1457,7 @@
     "name": "Honors Band 3",
     "credits": 5,
     "majors": ["English/Literature", "Art/Design"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Band 2", "Honors Band 2"],
     "id": 79
   },
@@ -1466,7 +1466,7 @@
     "name": "Honors Band 4",
     "credits": 5,
     "majors": ["English/Literature", "Art/Design"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Band 3", "Honors Band 3"],
     "id": 80
   },
@@ -1475,7 +1475,7 @@
     "name": "Chorus 1",
     "credits": 5,
     "majors": ["English/Literature", "Art/Design"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["NONE"],
     "id": 81
   },
@@ -1484,7 +1484,7 @@
     "name": "Chorus 2",
     "credits": 5,
     "majors": ["English/Literature", "Art/Design"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Chorus 1"],
     "id": 82
   },
@@ -1493,7 +1493,7 @@
     "name": "Chorus 3",
     "credits": 5,
     "majors": ["English/Literature", "Art/Design"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Chorus 2", "Honors Chorus 2"],
     "id": 83
   },
@@ -1502,7 +1502,7 @@
     "name": "Chorus 4",
     "credits": 5,
     "majors": ["English/Literature", "Art/Design"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Chorus 3", "Honors Chorus 3"],
     "id": 84
   },
@@ -1511,7 +1511,7 @@
     "name": "Honors Chorus 2",
     "credits": 5,
     "majors": ["English/Literature", "Art/Design"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Chorus 1"],
     "id": 85
   },
@@ -1520,7 +1520,7 @@
     "name": "Honors Chorus 3",
     "credits": 5,
     "majors": ["English/Literature", "Art/Design"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Chorus 2", "Honors Chorus 2"],
     "id": 86
   },
@@ -1529,7 +1529,7 @@
     "name": "Honors Chorus 4",
     "credits": 5,
     "majors": ["English/Literature", "Art/Design"],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["Chorus 3", "Honors Chorus 3"],
     "id": 87
   },
@@ -1545,7 +1545,7 @@
       "Art/Design",
       "Philosophy"
     ],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["NONE"],
     "id": 88
   },
@@ -1561,7 +1561,7 @@
       "Art/Design",
       "Philosophy"
     ],
-    "subject": "Visual \u0026 Performing Arts",
+    "subject": "Visual & Performing Arts",
     "prerequisites": ["NONE"],
     "id": 89
   },
@@ -1647,7 +1647,7 @@
     "id": 93
   },
   {
-    "grades": [9, 10, 11, 12],
+    "grades": [9, 10],
     "name": "Geometry",
     "credits": 5,
     "majors": [
@@ -1678,7 +1678,7 @@
     "id": 94
   },
   {
-    "grades": [9, 10, 11, 12],
+    "grades": [9, 10],
     "name": "Honors Geometry",
     "credits": 5,
     "majors": [
@@ -1709,7 +1709,7 @@
     "id": 95
   },
   {
-    "grades": [9, 10, 11, 12],
+    "grades": [9, 10],
     "name": "Algebra 1",
     "credits": 5,
     "majors": [
@@ -1740,7 +1740,7 @@
     "id": 96
   },
   {
-    "grades": [9, 10, 11, 12],
+    "grades": [9, 10],
     "name": "Honors Algebra 1",
     "credits": 5,
     "majors": [
@@ -1771,7 +1771,7 @@
     "id": 97
   },
   {
-    "grades": [9, 10, 11, 12],
+    "grades": [9, 10, 11],
     "name": "Algebra 2",
     "credits": 5,
     "majors": [
@@ -1807,7 +1807,7 @@
     "id": 98
   },
   {
-    "grades": [9, 10, 11, 12],
+    "grades": [9, 10, 11],
     "name": "Honors Algebra 2",
     "credits": 5,
     "majors": [
