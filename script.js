@@ -64,13 +64,14 @@ const app = Vue.createApp({
       const currentTableSelection = tbody.querySelector('tr:not([hidden])')
       const tableSelectionBtn = document.querySelector('.toNextTable')
       const majorSelectionBtn = document.querySelector('.toMajors')
+      const prevTableSelectionBtn = document.querySelector('.toPrevTable')
 
+      prevTableSelectionBtn.hidden = false
       if (!currentTableSelection) {
         tableSelectionBtn.hidden = true;
         majorSelectionBtn.hidden = false;
         return;
       }
-
       //this find the next page after the current page
       let nextTableSelection = currentTableSelection.nextElementSibling;
       //this is a loop that goes through the next pages until there is no more pages
@@ -88,6 +89,50 @@ const app = Vue.createApp({
       } else {
 
         tableSelectionBtn.hidden = true;
+        majorSelectionBtn.hidden = false;
+      }
+    },
+    prevTableSelection() {
+      // Logic to navigate to the previous table selection area
+      //this finds the current visible page thats not hidden
+      const tbody = document.querySelector('tbody')
+      const currentTableSelection = tbody.querySelector('tr:not([hidden])')
+      const prevTableSelectionBtn = document.querySelector('.toPrevTable')
+      const majorSelectionBtn = document.querySelector('.toMajors')
+
+      if (!currentTableSelection) {
+        prevTableSelectionBtn.hidden = true;
+        majorSelectionBtn.hidden = false;
+        return;
+      }
+      
+      //if we are at english courses, hide previous btn
+      if(currentTableSelection===tbody.firstElementChild) {
+        prevTableSelectionBtn.hidden = true;
+        majorSelectionBtn.hidden = true;
+        return; 
+       }
+       //if we're at last courses selction area (whichever subject), dont bug out
+       if(currentTableSelection===tbody.children[tbody.children.length-1]) {
+        majorSelectionBtn.hidden = false;
+        
+       }
+
+      //this find the previous page
+      let prevTableSelection = currentTableSelection.previousElementSibling;
+      while (prevTableSelection && prevTableSelection.tagName !== 'TR') {
+        prevTableSelection = prevTableSelection.previousElementSibling;
+      }
+      
+      //if another page exists, hide the current page and show the previous page
+      if (prevTableSelection) {
+        currentTableSelection.hidden = true;
+        prevTableSelection.hidden = false;
+
+        prevTableSelectionBtn.hidden = false;
+        majorSelectionBtn.hidden = true;
+      } else {
+        prevTableSelectionBtn.hidden = true;
         majorSelectionBtn.hidden = false;
       }
     },
