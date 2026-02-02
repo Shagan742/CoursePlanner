@@ -117,7 +117,9 @@ const app = Vue.createApp({
           course.name.includes("Innovation and Design") ||
           course.name.includes("Computer Science Principles") ||
           course.name.includes("Woodworking") ||
-          course.name.includes("Cabinet Making")) {
+          course.name.includes("Cabinet Making") ||
+          course.name.includes("Web Design")
+        ) {
           this.centuryElectiveCounter++;
         }
         // English
