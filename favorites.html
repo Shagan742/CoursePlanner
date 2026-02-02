@@ -24,8 +24,23 @@
         <header>
             <!-- place navbar here -->
         </header>
-        <main class="container" id="favoritesApp">
-            
+        <main class="container" id="app">
+            <section id="favoritesSection" class="row text-center justify-content-center align-content-center mx-3" style="min-height:100vh">
+                <h2 class="my-4">Favorite Courses</h2>
+                <div class="row justify-content-center">
+                    <div class="col-3 m-3" v-for="schedule in favs">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <ul>
+                                        <li v-for="course in schedule">{{course}}</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
         </main>

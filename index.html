@@ -25,7 +25,7 @@
             <!-- place navbar here -->
         </header>
         <main class="container" id="app">
-            <section id="home" class="row text-center justify-content-center align-content-center mx-3" style="min-height:900px;">
+            <section id="home" class="row text-center justify-content-center align-content-center mx-3" style="min-height:100vh">
                     <div class="col-md-5">
                         <h1 class="my-4">Course Planner</h1>
                         <p>Welcome to Course Planner! Ever feel overwhelmed during course selection season? Here, you can receive course recommendations and 
@@ -33,7 +33,7 @@
                         <button type="button" class="btn btn-success my-3" @click="nextPage()">Get Started</button>
                     </div>
             </section>
-            <section id="coursesTaken+Major" class="row text-center justify-content-center align-content-center mx-3" style="min-height:900px;" hidden>
+            <section id="coursesTaken+Major" class="row text-center justify-content-center align-content-center mx-3" style="min-height:100vh" hidden>
                 <!-- grade selection -->
                 <div class="gradeSelect row justify-content-center">
                     <h2 class="mb-4">Select your grade:</h2>
@@ -295,8 +295,29 @@
                 </div>
                 
             </section>
-            <section id="sampleSchedule" hidden>
-                <!-- sddsa -->
+            <section id="sampleSchedule" class="row text-center justify-content-center align-content-center mx-3" style="min-height:100vh" hidden>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Course Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="(subject, index) in mustCompleteSubjects">
+                            <td>{{subject}}</td>
+                            <td>
+                                <select class="form-select" aria-label="Default select example" v-model="sampleCourses[index]">
+                                    <option disabled value="">Select Course</option>
+                                    <option :value="theCourse.name" v-for="theCourse in filterBySubject(subject)" :key="theCourse.id">{{theCourse.name}}</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-primary my-3" @click="previousPage()">Previous</button>
+                <button type="button" class="btn btn-primary my-3" @click="addFavorite()">Save to Favorites</button>
+                <a role="button" class="btn btn-primary my-3" href="favorites.html">Go to Favorites</a>
             </section>
 
             <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
