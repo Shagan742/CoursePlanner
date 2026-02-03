@@ -67,8 +67,8 @@
 
                 <!-- class selection -->
 
-<div class="row justify-content-center classes" hidden>
-                    <h2 class="mb-4">Select All the Classes You've Taken/Are Currently Taking:</h2>
+            <div class="row justify-content-center classes" hidden>
+                    <h2 class="my-4">Select All the Classes You've Taken/Are Currently Taking:</h2>
                     
                         <table>
                             <thead>
@@ -307,9 +307,13 @@
                         </tr>
                     </tbody>
                 </table>
-                <button type="button" class="btn btn-primary my-3" @click="previousPage()">Previous</button>
-                <button type="button" class="btn btn-primary my-3" @click="addFavorite()">Save to Favorites</button>
-                <a role="button" class="btn btn-primary my-3" href="favorites.html">Go to Favorites</a>
+                <div class="col-4 col-sm-12">
+                    <button type="button" class="btn btn-primary m-1" @click="previousPage()">Previous</button>
+      
+                    <button type="button" class="btn btn-primary m-1" @click="addFavorite()">Save to Favorites</button>
+               
+                    <a role="button" class="btn btn-primary m-1" href="favorites.html">Go to Favorites</a>
+                </div>
             </section>
 
             <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
