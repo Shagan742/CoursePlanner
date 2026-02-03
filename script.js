@@ -51,6 +51,27 @@ const app = Vue.createApp({
         nextPage.hidden = false;
       }
     },
+    previousPage() {
+      // Logic to navigate to the previous major section
+      //this finds the current visible page thats not hidden
+      const currentPage = document.querySelector('section:not([hidden])');
+      //this find the previous page
+      let prevPage = currentPage.previousElementSibling;
+      while (prevPage && prevPage.tagName !== 'SECTION') {
+        prevPage = prevPage.previousElementSibling;
+      }
+      //if another page exists, hide the current page and show the previous page
+      if (prevPage) {
+        currentPage.hidden = true;
+        prevPage.hidden = false;
+      }
+    },
+    backToGradeSelection() {
+      const gradeSelect = document.querySelector('.gradeSelect')
+      const classes = document.querySelector('.classes')
+      gradeSelect.hidden = false;
+      classes.hidden = true;
+    },
     toTableSelection() {
       const gradeSelect = document.querySelector('.gradeSelect')
       const classes = document.querySelector('.classes')
@@ -65,8 +86,10 @@ const app = Vue.createApp({
       const tableSelectionBtn = document.querySelector('.toNextTable')
       const majorSelectionBtn = document.querySelector('.toMajors')
       const prevTableSelectionBtn = document.querySelector('.toPrevTable')
+      const backToGradeSelectionBtn = document.querySelector('.backToGradeSelection')
 
       prevTableSelectionBtn.hidden = false
+      backToGradeSelectionBtn.hidden = true
       if (!currentTableSelection) {
         tableSelectionBtn.hidden = true;
         majorSelectionBtn.hidden = false;
@@ -99,16 +122,21 @@ const app = Vue.createApp({
       const currentTableSelection = tbody.querySelector('tr:not([hidden])')
       const prevTableSelectionBtn = document.querySelector('.toPrevTable')
       const majorSelectionBtn = document.querySelector('.toMajors')
+      const backToGradeSelectionBtn = document.querySelector('.backToGradeSelection')
+
+      
 
       if (!currentTableSelection) {
         prevTableSelectionBtn.hidden = true;
         majorSelectionBtn.hidden = false;
+
         return;
       }
       
       //if we are at english courses, hide previous btn
       if(currentTableSelection===tbody.firstElementChild) {
         prevTableSelectionBtn.hidden = true;
+        backToGradeSelectionBtn.hidden = false;
         majorSelectionBtn.hidden = true;
         return; 
        }
@@ -135,6 +163,10 @@ const app = Vue.createApp({
         prevTableSelectionBtn.hidden = true;
         majorSelectionBtn.hidden = false;
       }
+      
+      // Show the Next button when navigating backwards
+      const nextTableBtn = document.querySelector('.toNextTable');
+      nextTableBtn.hidden = false;
     },
     updateCounters() {
       // Reset all counters
