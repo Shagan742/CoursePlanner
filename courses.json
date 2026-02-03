@@ -2479,7 +2479,7 @@
   },
   {
     "grades": [10],
-    "name": "Honors Web Design",
+    "name": "***Honors Web Design***",
     "credits": 5,
     "majors": [
       "Business/Management",
@@ -2487,13 +2487,13 @@
       "Engineering",
       "Art/Design"
     ],
-    "subject": "Web Design",
+    "subject": "21st Century Life & Careers",
     "prerequisites": ["NONE"],
     "id": 120
   },
   {
     "grades": [11],
-    "name": "Honors Advanced Web Design",
+    "name": "***Honors Advanced Web Design***",
     "credits": 5,
     "majors": [
       "Business/Management",
@@ -2501,13 +2501,13 @@
       "Engineering",
       "Art/Design"
     ],
-    "subject": "Web Design",
-    "prerequisites": ["Honors Web Design"],
+    "subject": "21st Century Life & Careers",
+    "prerequisites": ["***Honors Web Design***"],
     "id": 121
   },
   {
     "grades": [12],
-    "name": "Honors NJIT IS219 Advanced Website Development",
+    "name": "***Honors NJIT IS219 Advanced Website Development***",
     "credits": 5,
     "majors": [
       "Business/Management",
@@ -2515,8 +2515,8 @@
       "Engineering",
       "Art/Design"
     ],
-    "subject": "Web Design",
-    "prerequisites": ["Honors Advanced Web Design"],
+    "subject": "21st Century Life & Careers",
+    "prerequisites": ["***Honors Advanced Web Design***"],
     "id": 122
   }
 ]

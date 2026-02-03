@@ -176,30 +176,18 @@
                                         <br>
                                     </td>
                                 </tr>
-                                <!-- web design -->
-                                <tr hidden>
-                                    <td>Web Design Pathway Program</td>
-                                    <td>
-                                        <br>
-                                        <div class="form-check d-flex justify-content-center mb-2" v-for="course in webDesignCourses">
-                                            <input class="form-check-input" type="checkbox" :value="course" :id="course.id" v-model="takenCourses"/>
-                                            <label class="form-check-label" :for="course.id"> {{course.name}} </label>
-                                        </div>
-                                        <br>
-                                    </td>
-                                </tr>
                             </tbody>
                         </table>
                     <button type="button" class="btn btn-success m-1 toPrevTable" style="width:100px;" @click="prevTableSelection()" hidden>Previous</button>
-                    <button type="button" class="btn btn-danger m-1 backToGradeSelection" style="width:100px;" @click="backToGradeSelection()">Go To Grade Selection</button>
+                    <button type="button" class="btn btn-danger m-1 backToGradeSelection" style="width:200px;" @click="backToGradeSelection()">Go To Grade Selection</button>
                     <button type="button" class="btn btn-primary m-1 toNextTable" style="width:100px;" @click="nextTableSelection()">Next</button>
-                    <button type="button" class="btn btn-success my-3 toMajors" style="width:150px;" @click="nextPage()" hidden>Next (Click again)</button>
+                    <button type="button" class="btn btn-success my-3 toMajors" style="width:200px;" @click="nextPage()" hidden>Next (Click again)</button>
                 </div>
         </section>
                 
             <section id="info" hidden>
                 <!-- major selection -->
-                <div class="row justify-content-center majors">
+                <div class="row text-center justify-content-center majors mt-5">
                     <h2 class="my-4">Select your intended major/primary interest:</h2>
                     <div class="col-md-6">
                     <select class="form-select" aria-label="Default select example" v-model="major">
@@ -228,21 +216,22 @@
                     </div>
                     <br>
                 </div>
-                <h1>Current Statistics</h1>
-                <div class="row">
+
+                <h2 class="text-center mt-5">Current Statistics</h2>
+                <div class="row text-center justify-content-center mx-3 mb-4">
                     <h3>Current Grade: {{ grade }}th Grade</h3>
                     <h3>Next Grade: {{ Number(grade) + 1 }}th Grade</h3>
                     <h3>Major: {{ major }} </h3>
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
-                        <h2>All Courses Taken:</h2>
+                        <h2 class="text-center">All Courses Taken</h2>
                         <ul>
                             <li v-for="course in takenCourses" :key="course">{{ course.name }}</li>
                         </ul>
                     </div>
                     <div class="col-md-4 col-sm-12">
-                        <h2>Current Requirements Fufilled</h2>
+                        <h2 class="text-center">Current Requirements Fulfilled</h2>
                         <ul>
                             <li>English: {{ engCounter }} / {{ mandatoryEngCourses }}
                                 <p v-if="mandatoryEngCourses - engCounter > 1">{{ mandatoryEngCourses - engCounter }} years left</p>
@@ -284,15 +273,15 @@
                         </ul>
                 </div>
                     <div class="col-md-4 col-sm-12">
-                        <h2>Recommended Courses Based on Major</h2>
+                        <h2 class="text-center">Recommended Courses Based on Major</h2>
                         <ul>
-    <li v-for="rec in recommendedCourses" :key="rec">{{ rec }}</li>
-</ul>
+                            <li v-for="rec in recommendedCourses" :key="rec">{{ rec }}</li>
+                        </ul>
                     </div>
-                    <div class="row">
+                    <div class="row text-center justify-content-center mt-4">
                         <div class="col-4 col-sm-12">
-                            <button type="button" class="btn btn-primary my-3" @click="previousPage()">Previous</button>
-                            <button type="button" class="btn btn-primary my-3" @click="nextPage()">Next</button>
+                            <button type="button" class="btn btn-success m-1" @click="previousPage()">Previous</button>
+                            <button type="button" class="btn btn-success m-1" @click="nextPage()">Next</button>
                         </div>
                     </div>
                 </div>
@@ -307,7 +296,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr v-for="(subject, index) in mustCompleteSubjects">
+                        <tr v-for="(subject, index) in subjects">
                             <td>{{subject}}</td>
                             <td>
                                 <select class="form-select" aria-label="Default select example" v-model="sampleCourses[index]">
