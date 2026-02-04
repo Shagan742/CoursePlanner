@@ -26,8 +26,8 @@
             <!-- place navbar here -->
         </header>
         <main class="container" id="app">
-            <section id="home" class="row text-center justify-content-center align-content-center mx-3" style="min-height:100vh">
-                    <div class="col-md-5">
+            <section id="home" class="row text-center justify-content-center align-content-center mx-3" style="min-height:100vh;">
+                    <div class="col-md-5 home">
                         <h1 class="my-4">Course Planner</h1>
                         <p>Welcome to Course Planner! Ever feel overwhelmed during course selection season? Here, you can receive course recommendations and 
                         craft your own sample schedule to help determine what courses you will take in your next year at Marlboro High School.</p>
@@ -38,30 +38,25 @@
             <section id="coursesTaken+Major" class="row text-center justify-content-center align-content-center mx-3" style="min-height:100vh" hidden>
                 <!-- grade selection -->
                 <div class="gradeSelect row justify-content-center">
-                    <h2 class="mb-4">Select your grade:</h2>
-                    
-                    <div class="col-sm-2">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="9th" value="9" v-model.number="grade">
-                            <label class="form-check-label" for="9th">9th Grade</label>
+                    <div class="col-md-8 text-center gradeSelection">
+                        <h2 class="mb-4">Select your grade:</h2>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="9th" value="9" v-model.number="grade">
+                                <label class="form-check-label" for="9th">9th Grade</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="10th" value="10" v-model.number="grade">
+                                <label class="form-check-label" for="10th">10th Grade</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="11th" value="11" v-model.number="grade">
+                                <label class="form-check-label" for="11th">11th Grade</label>
+                            </div>
+                        <br>
+                        <br>
+                        <div class="col-sm-12">
+                            <button type="button" style="width: 100px;" class="btn btn-success my-3" @click="toTableSelection()">Next</button>
                         </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="10th" value="10" v-model.number="grade">
-                            <label class="form-check-label" for="10th">10th Grade</label>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="11th" value="11" v-model.number="grade">
-                            <label class="form-check-label" for="11th">11th Grade</label>
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-                    <div class="col-sm-12">
-                        <button type="button" style="width: 100px;" class="btn btn-success my-3" @click="toTableSelection()">Next</button>
                     </div>
                 </div>
 

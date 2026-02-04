@@ -13,7 +13,16 @@ background-image: url(imgs/notebook\ bg.webp);
 background-attachment: fixed;
 background-repeat: no-repeat;
 background-size: cover;
+background-position: center;
 }
 h2 {
     font-weight:bold;
+}
+
+table, .home, .gradeSelection {
+    border: 2px solid black;
+    padding: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    background-color: rgba(243, 239, 233, 0.5);
 }
