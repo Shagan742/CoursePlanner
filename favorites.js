@@ -7,6 +7,12 @@ const favoritesApp = Vue.createApp({
       return {
         favs: JSON.parse(localStorage.getItem('favoriteCourses')) || []
       }
+    },
+    methods: {
+      clearFavs() {
+        this.favs=[]
+        localStorage.setItem('favoriteCourses', JSON.stringify(this.favs))
+      }
     }
   });
   favoritesApp.mount('#app')

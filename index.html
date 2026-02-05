@@ -62,10 +62,10 @@
 
                 <!-- class selection -->
 
-            <div class="row justify-content-center classes" hidden>
+            <div class="row justify-content-center classes my-5" hidden>
                     <h2 class="my-4">Select All the Classes You've Taken/Are Currently Taking:</h2>
                     
-                        <table>
+                        <table style="max-height:600px;">
                             <thead>
                                 <tr>
                                     <th>Subject</th>
@@ -77,12 +77,14 @@
                                 <tr>
                                     <td>English</td>
                                     <td>
+                                        <div class="checkbox-scroll">
                                         <br>
                                         <div class="form-check d-flex justify-content-center mb-2" v-for="course in englishCourses">
-                                            <input class="form-check-input" type="checkbox" :value="course" :id="course.id" v-model="takenCourses"/>
+                                            <input class="form-check-input mx-1" type="checkbox" :value="course" :id="course.id" v-model="takenCourses"/>
                                             <label class="form-check-label" :for="course.id"> {{course.name}} </label>
                                         </div>
                                         <br>
+                                    </div>
                                     </td>
                                     
                                 </tr>  
@@ -90,24 +92,28 @@
                                 <tr hidden>
                                     <td>Mathematics</td>
                                     <td>
+                                        <div class="checkbox-scroll">
                                         <br>
                                         <div class="form-check d-flex justify-content-center mb-2" v-for="course in mathCourses">
-                                            <input class="form-check-input" type="checkbox" :value="course" :id="course.id" v-model="takenCourses"/>
+                                            <input class="form-check-input mx-1" type="checkbox" :value="course" :id="course.id" v-model="takenCourses"/>
                                             <label class="form-check-label" :for="course.id"> {{course.name}} </label>
                                         </div>
                                         <br>
+                                        </div>
                                     </td>
                                 </tr>
                             <!-- Science branch -->
                                 <tr hidden>
                                     <td>Science</td>
                                     <td>
+                                        <div class="checkbox-scroll">
                                         <br>
                                         <div class="form-check d-flex justify-content-center mb-2" v-for="course in scienceCourses">
-                                            <input class="form-check-input" type="checkbox" :value="course" :id="course.id" v-model="takenCourses"/>
+                                            <input class="form-check-input mx-1" type="checkbox" :value="course" :id="course.id" v-model="takenCourses"/>
                                             <label class="form-check-label" :for="course.id"> {{course.name}} </label>
                                         </div>
                                         <br>
+                                        </div>
                                     </td>
                                     
                                 </tr>
@@ -115,24 +121,28 @@
                                 <tr hidden>
                                     <td>Social Studies</td>
                                     <td>
+                                        <div class="checkbox-scroll">
                                         <br>
                                         <div class="form-check d-flex justify-content-center mb-2" v-for="course in socialStudiesCourses">
-                                            <input class="form-check-input" type="checkbox" :value="course" :id="course.id" v-model="takenCourses"/>
+                                            <input class="form-check-input mx-1" type="checkbox" :value="course" :id="course.id" v-model="takenCourses"/>
                                             <label class="form-check-label" :for="course.id"> {{course.name}} </label>
                                         </div>
                                         <br>
+                                        </div>
                                     </td>
                                 </tr>
                                 <!-- foreign language -->
                                 <tr hidden>
                                     <td>World Language</td>
                                     <td>
+                                        <div class="checkbox-scroll">
                                         <br>
                                         <div class="form-check d-flex justify-content-center mb-2" v-for="course in languageCourses">
-                                            <input class="form-check-input" type="checkbox" :value="course" :id="course.id" v-model="takenCourses"/>
+                                            <input class="form-check-input mx-1" type="checkbox" :value="course" :id="course.id" v-model="takenCourses"/>
                                             <label class="form-check-label" :for="course.id"> {{course.name}} </label>
                                         </div>
                                         <br>
+                                        </div>
                                     </td>
                                 </tr>
                                 <!-- financial literacy -->
@@ -141,7 +151,7 @@
                                     <td>
                                         <br>
                                         <div class="form-check d-flex justify-content-center mb-2" v-for="course in finLitCourse">
-                                            <input class="form-check-input" type="checkbox" :value="course" :id="course.id" v-model="takenCourses"/>
+                                            <input class="form-check-input mx-1" type="checkbox" :value="course" :id="course.id" v-model="takenCourses"/>
                                             <label class="form-check-label" :for="course.id"> {{course.name}} </label>
                                         </div>
                                         <br>
@@ -151,62 +161,66 @@
                                 <tr hidden>
                                     <td>21st Century Life & Careers</td>
                                     <td>
+                                        <div class="checkbox-scroll">
                                         <br>
                                         <div class="form-check d-flex justify-content-center mb-2" v-for="course in century21ElectiveCourses">
-                                            <input class="form-check-input" type="checkbox" :value="course" :id="course.id" v-model="takenCourses"/>
+                                            <input class="form-check-input mx-1" type="checkbox" :value="course" :id="course.id" v-model="takenCourses"/>
                                             <label class="form-check-label" :for="course.id"> {{course.name}} </label>
                                         </div>
                                         <br>
+                                        </div>
                                     </td>
                                 </tr>
                                 <!-- art -->
                                 <tr hidden>
                                     <td>Visual & Performing Arts</td>
                                     <td>
+                                        <div class="checkbox-scroll">
                                         <br>
                                         <div class="form-check d-flex justify-content-center mb-2" v-for="course in artCourses">
-                                            <input class="form-check-input" type="checkbox" :value="course" :id="course.id" v-model="takenCourses"/>
+                                            <input class="form-check-input mx-1" type="checkbox" :value="course" :id="course.id" v-model="takenCourses"/>
                                             <label class="form-check-label" :for="course.id"> {{course.name}} </label>
                                         </div>
                                         <br>
+                                    </div>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
-                    <button type="button" class="btn btn-success m-1 toPrevTable" style="width:100px;" @click="prevTableSelection()" hidden>Previous</button>
-                    <button type="button" class="btn btn-danger m-1 backToGradeSelection" style="width:200px;" @click="backToGradeSelection()">Go To Grade Selection</button>
-                    <button type="button" class="btn btn-primary m-1 toNextTable" style="width:100px;" @click="nextTableSelection()">Next</button>
-                    <button type="button" class="btn btn-success my-3 toMajors" style="width:200px;" @click="nextPage()" hidden>Next (Click again)</button>
+                    <button type="button" class="btn btn-success mx-3 toPrevTable" style="width:120px;" @click="prevTableSelection()" hidden>Previous</button>
+                    <button type="button" class="btn btn-success mx-3 backToGradeSelection" style="width:200px;" @click="backToGradeSelection()">Go To Grade Selection</button>
+                    <button type="button" class="btn btn-success mx-3 toNextTable" style="width:100px;" @click="nextTableSelection()">Next</button>
+                    <button type="button" class="btn btn-success my-3 mx-3 toMajors" style="width:200px;" @click="nextPage()" hidden>Next (Click again)</button>
                 </div>
         </section>
                 
             <section id="info" hidden>
                 <!-- major selection -->
-                <div class="row text-center justify-content-center majors mt-5">
+                <div class="row text-center justify-content-center majors my-5">
                     <h2 class="my-4">Select your intended major/primary interest:</h2>
                     <div class="col-md-6">
-                    <select class="form-select" aria-label="Default select example" v-model="major">
-                        <option disabled value="">Select your major/interest:</option>
-                        <option value="Computer Science">Computer Science</option>
-                        <option value="Business/Management">Business/Management</option>
-                        <option value="Psychology">Psychology</option>
-                        <option value="Biology">Biology</option>
-                        <option value="Nursing">Nursing</option>
-                        <option value="Engineering">Engineering</option>
-                        <option value="Education">Education</option>
-                        <option value="Economics">Economics</option>
-                        <option value="Political Science">Political Science</option>
-                        <option value="Communications">Communications</option>
-                        <option value="English/Literature">English/Literature</option>
-                        <option value="History">History</option>
-                        <option value="Mathematics">Mathematics</option>
-                        <option value="Chemistry">Chemistry</option>
-                        <option value="Physics">Physics</option>
-                        <option value="Sociology">Sociology</option>
-                        <option value="Art/Design">Art/Design</option>
-                        <option value="Environmental Science">Environmental Science</option>
-                        <option value="Philosophy">Philosophy</option>
-                        <option value="Health Sciences/Public Health">Health Sciences/Public Health</option>
+                    <select class="form-select"  v-model="major">
+                        <option class="opt" disabled value="">Select your major/interest:</option>
+                        <option class="opt" value="Computer Science">Computer Science</option>
+                        <option class="opt" value="Business/Management">Business/Management</option>
+                        <option class="opt" value="Psychology">Psychology</option>
+                        <option class="opt" value="Biology">Biology</option>
+                        <option class="opt" value="Nursing">Nursing</option>
+                        <option class="opt" value="Engineering">Engineering</option>
+                        <option class="opt" value="Education">Education</option>
+                        <option class="opt" value="Economics">Economics</option>
+                        <option class="opt" value="Political Science">Political Science</option>
+                        <option class="opt" value="Communications">Communications</option>
+                        <option class="opt" value="English/Literature">English/Literature</option>
+                        <option class="opt" value="History">History</option>
+                        <option class="opt" value="Mathematics">Mathematics</option>
+                        <option class="opt" value="Chemistry">Chemistry</option>
+                        <option class="opt" value="Physics">Physics</option>
+                        <option class="opt" value="Sociology">Sociology</option>
+                        <option class="opt" value="Art/Design">Art/Design</option>
+                        <option class="opt" value="Environmental Science">Environmental Science</option>
+                        <option class="opt" value="Philosophy">Philosophy</option>
+                        <option class="opt" value="Health Sciences/Public Health">Health Sciences/Public Health</option>
                     </select>
                     </div>
                     <br>
@@ -218,7 +232,7 @@
                     <h3>Next Grade: {{ Number(grade) + 1 }}th Grade</h3>
                     <h3>Major: {{ major }} </h3>
                 </div>
-                <div class="row">
+                <div class="row courseInfo mx-3">
                     <div class="col-md-4 col-sm-12">
                         <h2 class="text-center">All Courses Taken</h2>
                         <ul>
@@ -273,13 +287,14 @@
                             <li v-for="rec in recommendedCourses" :key="rec">{{ rec }}</li>
                         </ul>
                     </div>
-                    <div class="row text-center justify-content-center mt-4">
+                </div>    
+                    <div class="row text-center justify-content-center my-4">
                         <div class="col-4 col-sm-12">
                             <button type="button" class="btn btn-success m-1" @click="previousPage()">Previous</button>
                             <button type="button" class="btn btn-success m-1" @click="nextPage()">Next</button>
                         </div>
                     </div>
-                </div>
+                
                 
             </section>
             <section id="sampleSchedule" class="row text-center justify-content-center align-content-center mx-3" style="min-height:100vh" hidden>
@@ -303,11 +318,11 @@
                     </tbody>
                 </table>
                 <div class="col-4 col-sm-12">
-                    <button type="button" class="btn btn-primary m-1" @click="previousPage()">Previous</button>
+                    <button type="button" class="btn btn-success m-1" @click="previousPage()">Previous</button>
       
-                    <button type="button" class="btn btn-primary m-1" @click="addFavorite()">Save to Favorites</button>
+                    <button type="button" class="btn btn-success m-1" @click="addFavorite()">Save to Favorites</button>
                
-                    <a role="button" class="btn btn-primary m-1" href="favorites.html">Go to Favorites</a>
+                    <a role="button" class="btn btn-success m-1" href="favorites.html">Go to Favorites</a>
                 </div>
             </section>
 

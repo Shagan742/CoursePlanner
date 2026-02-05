@@ -1,28 +1,106 @@
-tr, td, th {
-    border:2px solid black;
-    padding:8px 4px 8px 4px;
-    max-width:100px;
+tr,
+td,
+th {
+  border: 2px solid black;
+  padding: 8px 4px 8px 4px;
+  max-width: 100px;
+  font-size:20px;
 }
 
-body
-{
-    font-family: "baga", sans-serif;
-font-weight: 400;
-font-style: normal;
-background-image: url(imgs/notebook\ bg.webp);
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
+body {
+  font-family: "baga", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(imgs/notebook\ bg.webp);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 h2 {
-    font-weight:bold;
+  font-weight: bold;
+  margin-bottom:20px;
 }
 
-table, .home, .gradeSelection {
-    border: 2px solid black;
-    padding: 50px;
-    margin-bottom: 20px;
+table,
+.home,
+.gradeSelection {
+  border: 2px solid black;
+  padding: 50px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  background-color: rgba(243, 239, 233, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+
+
+.card {
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  background-color: rgba(243, 239, 233, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.form-check-label, input[type="checkbox"], input[type="radio"] {
+    cursor:pointer;
+    font-size:18px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width:20px;
+    height:20px;
+    border:1px solid rgba(0, 0, 0, 0.6);
+}
+
+
+input[type="checkbox"]:checked, input[type="radio"]:checked {
+    background-color:rgba(32, 122, 46, 0.8);
+    border:1px solid rgba(0, 0, 0, 0.6);
+    animation-name: pop;
+    animation-duration: .3s;
+}
+
+@keyframes pop {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.4);}
+    100% {transform: scale(1);}
+}
+.checkbox-scroll {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-inline: 5rem;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+    scrollbar-color: rgba(32, 122, 46, 0.8) rgba(255, 255, 255, 0.8);
+}
+
+ul {
+    list-style-type:circle;
+}
+
+
+button, .btn {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
-    background-color: rgba(243, 239, 233, 0.5);
+    border:2px solid rgba(255, 255, 255, 0.9);
+}
+
+button:hover, .btn:hover {
+    transform:scale(1.1);
+    transition: .2s;
+}
+
+.form-select {
+    border: 1px solid black;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  background-color: rgba(243, 239, 233, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.courseInfo {
+     border: 1px solid black;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  background-color: rgba(243, 239, 233, 0.5);
+  backdrop-filter: blur(4px);
+  padding:50px;
 }

@@ -16,7 +16,7 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="favorites.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://use.typekit.net/old0sur.css">
 
     </head>
@@ -27,9 +27,9 @@
         </header>
         <main class="container" id="app">
             <section id="favoritesSection" class="row text-center justify-content-center align-content-center mx-3" style="min-height:100vh">
-                <h2 class="my-4">Favorite Courses</h2>
+                <h2 class="my-4">Favorite Schedules</h2>
                 <div class="row justify-content-center">
-                    <div class="col-3 m-3" v-for="schedule in favs">
+                    <div class="col-md-3 col-sm-12 m-3" v-for="schedule in favs">
                         <div class="card h-100">
                             <div class="card-body">
                                 <p class="card-text">
@@ -43,6 +43,7 @@
                 </div>
                 <div class="col-md-5">
                     <a class="btn btn-success m-1" href="index.html">Go Home</a>
+                    <button class="btn btn-success m-1" @click="clearFavs()">Clear</button>
                 </div>
             </section>
 
