@@ -17,6 +17,10 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+html {
+  overflow-x:hidden;
+}
 h2 {
   font-weight: bold;
   margin-bottom:20px;
@@ -103,4 +107,18 @@ button:hover, .btn:hover {
   background-color: rgba(243, 239, 233, 0.5);
   backdrop-filter: blur(4px);
   padding:50px;
+}
+
+.source, .sourc {
+  font-family: "baga", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color:black;
+  text-align:right;
+}
+
+a.source:hover {
+  color:rgb(0, 72, 0);
+  transition-duration:.3s;
 }
